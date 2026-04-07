@@ -50,7 +50,7 @@ html_css_files = [
 ]
 
 # Path to the advISO logo
-html_logo = '_static/advISO_logo.png'
+html_logo = '_static/adviso_logo.png'
 
 html_theme_options = {
     'logo_only': True,  
