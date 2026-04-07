@@ -1,0 +1,16 @@
+/* Funding acknowledgement box */
+div.funding-box {
+  border: 2px solid #00A6A6 !important;   /* Teal border */
+  background-color: #f0fafa !important;   /* Light teal background */
+  padding: 1em;
+  margin-top: 2em;
+  font-size: 0.95em;
+  line-height: 1.5;
+  border-radius: 6px;
+}
+
+div.funding-box h3 {
+  margin-top: 0;
+  color: #1A2A6C !important;              /* Dark blue heading */
+  font-weight: bold;
+}
