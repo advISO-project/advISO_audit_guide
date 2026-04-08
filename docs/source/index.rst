@@ -18,29 +18,15 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    :hidden:
    :maxdepth: 2
 
-   audit_guide/introduction
-   audit_guide/checklist
-   audit_guide/modular_alternative
-   audit_guide/case_studies
-   audit_guide/purpose/purpose
-   audit_guide/scope/scope
-   audit_guide/underlying_principles/underlying_principles
-   audit_guide/cross_references/cross_references
-   audit_guide/definitions/definitions
-   audit_guide/responsibilities/responsibilities
-   audit_guide/resources_tools/resources_tools
-   audit_guide/equipment_reagents/equipment_reagents
-   audit_guide/health_safety/health_safety
-   audit_guide/information_governance/information_governance
-   audit_guide/specimen_collection_transport/specimen_collection_transport
-   audit_guide/data_types/data_types
-   audit_guide/sample_types/sample_types
-   audit_guide/training_requirements/training_requirements
-   audit_guide/procedure/procedure
-   audit_guide/quality_control_assurance/quality_control_assurance
-   audit_guide/interferences_limitations/interferences_limitations
-   audit_guide/results_reporting_authorisation/results_reporting_authorisation
-   audit_guide/record_management/record_management
-   audit_guide/appendices/appendices
-   audit_guide/change_history/change_history
+   audit_guide/introduction/introduction
+   audit_guide/schedule/schedule
+   audit_guide/risk_assessment/risk_assessment
+   audit_guide/checklist/checklist
+   audit_guide/evidence/evidence
+   audit_guide/reporting/reporting
+   audit_guide/nonconformities/nonconformities
+   audit_guide/root_cause/root_cause
+   audit_guide/effectiveness_check/effectiveness_check
+   audit_guide/training_and_personnel/training_and_personnel
+   audit_guide/case_studies/case_studies
    glossary/
