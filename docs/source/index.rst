@@ -29,4 +29,4 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    audit_guide/effectiveness_check/effectiveness_check
    audit_guide/training_and_personnel/training_and_personnel
    audit_guide/case_studies/case_studies
-   glossary/
+   glossary
