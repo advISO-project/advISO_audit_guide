@@ -1,5 +1,5 @@
 =====================================
-Effectiveness Check
+Effectiveness check
 =====================================
 
 Heading 1 (Level 2)

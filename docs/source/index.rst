@@ -7,7 +7,7 @@ The following pages have been developed to provide comprehensive guidance on the
 
 This guide is intended to be used by microbial bioinformatics teams within medical laboratories. It explains in detail how internal audits should be designed, maintained and implemented to meet international requirements. It offers practical advice, examples, and frameworks that enable laboratories to design and implement audits which not only comply with ISO standards but also serve as clear, reliable evidence of quality and competence. 
 
-A :ref:`Glossary of ISO terms <glossary>` is also provided, offering definitions and bioinformatics-specific transdlations to faciliate clear communication and shared understanding between both wet and dry laboratory teams. This glossary is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise. 
+A :ref:`Glossary of ISO terms <glossary>` is also provided, offering definitions and bioinformatics-specific translations to faciliate clear communication and shared understanding between both wet and dry laboratory teams. This glossary is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise. 
 
 -------------------
 
