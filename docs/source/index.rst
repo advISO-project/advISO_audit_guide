@@ -22,6 +22,7 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    audit_guide/schedule/schedule
    audit_guide/risk_assessment/risk_assessment
    audit_guide/checklist/checklist
+   audit_guide/perform_audit/perform_audit
    audit_guide/evidence/evidence
    audit_guide/reporting/reporting
    audit_guide/nonconformities/nonconformities

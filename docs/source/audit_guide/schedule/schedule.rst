@@ -1,13 +1,21 @@
-Schedule
-============
+=============================
+Document Title (Level 1)
+=============================
 
-For each pipeline 
-Once a year at least 
-But frequency shouldbe based on risk and previous audit results
-Bioinformatics is a rapidly changing field, so more frequent audits may be necessary
-If you are seeing repeat issues
+Heading 1 (Level 2)
+-------------------
 
+This is paragraph 1. You can write your text normally here. To make text 
+*italic*, use single asterisks. To make text **bold**, use double asterisks.
 
-Creating a schedule can be as simple as putting together an Excel spreadsheet
+Heading 2 (Level 2)
+-------------------
 
- 
+.. dropdown:: Click to expand this dropdown
+   :open:
+
+   This is the content inside the dropdown. 
+   
+   * Indentation matters here! Everything inside the dropdown must be indented 
+     by 3 or 4 spaces to show that it belongs to this directive.
+   * You can put paragraphs, lists, or code blocks inside.
