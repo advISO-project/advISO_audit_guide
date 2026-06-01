@@ -19,6 +19,8 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    :maxdepth: 2
 
    audit_guide/introduction/introduction
+   audit_guide/modular_alternative
+   audit_guide/case_studies
    audit_guide/schedule/schedule
    audit_guide/risk_assessment/risk_assessment
    audit_guide/checklist/checklist
@@ -29,5 +31,4 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    audit_guide/root_cause/root_cause
    audit_guide/effectiveness_check/effectiveness_check
    audit_guide/training_and_personnel/training_and_personnel
-   audit_guide/case_studies/case_studies
-   glossary
+   glossary/
