@@ -1,5 +1,5 @@
 =============================
-Document Title (Level 1)
+Checklist
 =============================
 
 Heading 1 (Level 2)
