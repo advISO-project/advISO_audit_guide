@@ -16,7 +16,7 @@ This documentation was developed as part of the Wellcome Trust–funded project:
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 3
 
    audit_guide/introduction/introduction
    audit_guide/modular_alternative
@@ -31,4 +31,4 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    audit_guide/root_cause/root_cause
    audit_guide/effectiveness_check/effectiveness_check
    audit_guide/training_and_personnel/training_and_personnel
-   glossary/
+   glossary
