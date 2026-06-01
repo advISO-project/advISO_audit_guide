@@ -1,21 +1,49 @@
-=============================
-Document Title (Level 1)
-=============================
+Case studies
+============
 
-Heading 1 (Level 2)
--------------------
+Throughout this guide we make use of a series of case studies to illustrate how the modular SOP structure can be applied in practice:
 
-This is paragraph 1. You can write your text normally here. To make text 
-*italic*, use single asterisks. To make text **bold**, use double asterisks.
+.. dropdown:: 🧬 Bioinformatics QC Procedure
 
-Heading 2 (Level 2)
--------------------
+   A bioinformatics procedure for assessing the quality of Illumina sequencing reads prior to downstream analysis and reporting.
 
-.. dropdown:: Click to expand this dropdown
-   :open:
+.. dropdown:: 🧪 Laboratory Procedure
 
-   This is the content inside the dropdown. 
-   
-   * Indentation matters here! Everything inside the dropdown must be indented 
-     by 3 or 4 spaces to show that it belongs to this directive.
-   * You can put paragraphs, lists, or code blocks inside.
+   A laboratory procedure detailing the process for preparing Illumina sequencing libraries from DNA.
+
+.. dropdown:: 👩‍🔬 Staff Training Procedure
+
+   A procedure for planning, delivering, and documenting staff training activities.
+
+.. dropdown:: 🌌 Galaxy Training Procedure
+  
+   A procedure for delivering standardized training on the Galaxy platform, covering workflow development, execution, and management.
+
+.. dropdown:: 💻 Code Update & Review Procedure
+
+   A procedure outlining best practices for updating bioinformatics pipelines and performing code review.
+
+.. dropdown:: ✅ Verification Procedure
+
+   A standard operating procedure for perfoming verification of bioinformatics pipelines prior to rollout.
+
+All of these case studies are loosely based on real procedures used within ISO accredited laboratories.
+
+----------------
+
+.. raw:: html
+
+   <script>
+     // Auto-close other dropdowns when one opens
+     document.querySelectorAll('details').forEach((el) => {
+       el.addEventListener('toggle', function () {
+         if (el.open) {
+           document.querySelectorAll('details').forEach((other) => {
+             if (other !== el) {
+               other.removeAttribute('open');
+             }
+           });
+         }
+       });
+     });
+   </script>
