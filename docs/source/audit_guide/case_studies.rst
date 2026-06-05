@@ -1,6 +1,6 @@
-============
+=============
 Case studies
-============
+=============
 
 Throughout this guide we make use of a series of case studies to illustrate how the modular SOP structure can be applied in practice:
 
