@@ -2,11 +2,10 @@
 Checklist
 =============================
 
-Heading 1 (Level 2)
+What is an audit checklist?
 -------------------
 
-This is paragraph 1. You can write your text normally here. To make text 
-*italic*, use single asterisks. To make text **bold**, use double asterisks.
+An audit checklist is a structured list of items used to guide the audit process and ensure that all relevant areas of a process are covered. You may wish to structure these items into themes
 
 Heading 2 (Level 2)
 -------------------
