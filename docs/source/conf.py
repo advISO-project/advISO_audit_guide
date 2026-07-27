@@ -53,7 +53,8 @@ html_logo = '_static/adviso_logo.png'
 
 html_theme_options = {
     'logo_only': True,  
-    'display_version': False       
+    'display_version': False,
+    'collapse_navigation': False      
 }
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
