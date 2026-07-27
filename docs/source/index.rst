@@ -12,3 +12,24 @@ A :ref:`Glossary of ISO terms <glossary>` is also provided, offering definitions
 -------------------
 
 This documentation was developed as part of the Wellcome Trust–funded project: “ISO in a Box: Developing a framework to enable the development of end-to-end genomics-based ISO 15189 and ISO 17025 accredited services, anywhere in the world” (Grant Reference: 228162/Z/23/Z)
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   audit_guide/introduction
+   audit_guide/modular_alternative
+   audit_guide/case_studies
+   audit_guide/planning/risk_assessment
+   audit_guide/planning/schedule
+   audit_guide/planning/checklist
+   audit_guide/planning/personnel
+   audit_guide/execution/evidence
+   audit_guide/execution/perform
+   audit_guide/execution/recording
+   audit_guide/findings/nonconformities
+   audit_guide/findings/root_cause
+   audit_guide/findings/reporting
+   audit_guide/findings/effectiveness_check
+   audit_guide/findings/management_review
+   glossary/
