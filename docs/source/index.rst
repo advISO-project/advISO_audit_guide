@@ -15,11 +15,36 @@ This documentation was developed as part of the Wellcome Trust–funded project:
 
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
    
    audit_guide/introduction
    audit_guide/modular_alternative
    audit_guide/case_studies
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Planning an Audit
    audit_guide/planning/risk_assessment
    audit_guide/planning/schedule
    audit_guide/planning/checklist
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Executing an Audit
+   audit_guide/execution/evidence
+   audit_guide/execution/perform
+   audit_guide/execution/record
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Findings and Reporting
+   audit_guide/findings/nonconformities
+   audit_guide/findings/root_cause
+   audit_guide/findings/effectiveness_check
+   audit_guide/findings/reporting
+   audit_guide/findings/management_review
+.. toctree::
+   :maxdepth: 1
+   :caption: Help
    glossary
