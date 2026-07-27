@@ -16,9 +16,8 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-    'sphinx_design',
-]
+    'sphinx.ext.intersphinx'
+    ]
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -54,10 +53,7 @@ html_logo = '_static/adviso_logo.png'
 
 html_theme_options = {
     'logo_only': True,  
-    'display_version': False,  
-    'collapse_navigation': False,  
-    'navigation_depth': 3,        
-    'titles_only': False,          
+    'display_version': False       
 }
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
