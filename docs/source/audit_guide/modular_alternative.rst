@@ -14,7 +14,7 @@ To address these challenges, we propose a modular approach to internal audits, w
 How the modules fit together
 -----------------------------
 
-Rather than following one fixed audit template, this guide treats each stage of the audit process, risk assessment, scheduling, evidence-gathering, and so on, as a self-container module. Each module covers one part of the audit process, and can be combined with others depending on what is being audited. 
+Rather than following one fixed audit template, this guide treats each stage of the audit process, risk assessment, scheduling, evidence-gathering, and so on, as a self-contained module. Each module covers one part of the audit process, and can be combined with others depending on what is being audited. 
 
 .. dropdown:: Click to expand this dropdown
    :open:
