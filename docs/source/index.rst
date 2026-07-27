@@ -15,20 +15,11 @@ This documentation was developed as part of the Wellcome Trust–funded project:
 
 
 .. toctree::
-   :hidden: 
-   :maxdepth: 2
    
    audit_guide/introduction
    audit_guide/modular_alternative
    audit_guide/case_studies
-   audit_guide/planning/schedule
    audit_guide/planning/risk_assessment
+   audit_guide/planning/schedule
    audit_guide/planning/checklist
-   audit_guide/execution/perform
-   audit_guide/execution/evidence
-   audit_guide/execution/recording
-   audit_guide/findings/nonconformities
-   audit_guide/findings/root_cause
-   audit_guide/findings/reporting
-   audit_guide/findings/effectiveness_check
    glossary
