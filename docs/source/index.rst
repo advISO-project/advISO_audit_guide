@@ -21,14 +21,14 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    audit_guide/introduction
    audit_guide/modular_alternative
    audit_guide/case_studies
-   audit_guide/schedule/schedule
-   audit_guide/risk_assessment/risk_assessment
-   audit_guide/checklist/checklist
-   audit_guide/perform_audit/perform_audit
-   audit_guide/evidence/evidence
-   audit_guide/reporting/reporting
-   audit_guide/nonconformities/nonconformities
-   audit_guide/root_cause/root_cause
-   audit_guide/effectiveness_check/effectiveness_check
-   audit_guide/training_and_personnel/training_and_personnel
+   audit_guide/planning/schedule
+   audit_guide/planning/risk_assessment
+   audit_guide/planning/checklist
+   audit_guide/execution/perform
+   audit_guide/execution/evidence
+   audit_guide/execution/recording
+   audit_guide/findings/nonconformities
+   audit_guide/findings/root_cause
+   audit_guide/findings/reporting
+   audit_guide/findings/effectiveness_check
    glossary
