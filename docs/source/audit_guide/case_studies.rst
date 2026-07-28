@@ -4,29 +4,29 @@ Case Studies
 
 Throughout this guide we make use of a series of case studies to illustrate how the modular audit structure can be applied in practice:
 
-.. dropdown:: 🧬 Bioinformatics QC Procedure
-
-   A bioinformatics procedure for assessing the quality of Illumina sequencing reads prior to downstream analysis and reporting.
-
 .. dropdown:: 🧪 Laboratory Procedure
 
-   A laboratory procedure detailing the process for preparing Illumina sequencing libraries from DNA.
+   An audit assessing the process for preparing Illumina sequencing libraries from DNA.
 
-.. dropdown:: 👩‍🔬 Staff Training Procedure
+.. dropdown:: 🧬 Bioinformatics QC Procedure
 
-   A procedure for planning, delivering, and documenting staff training activities.
+   An audit assessing the bioinformatics procedure for assessing the quality of Illumina sequencing reads prior to downstream analysis and reporting.
+
+.. dropdown:: 🧬 Bioinformatics Analysis Procedure
+
+   An audit assessing the bioinformatics procedure for analysing Illumina sequencing reads to identify variants and generate a report for clinical interpretation.
 
 .. dropdown:: 🌌 Galaxy Training Procedure
   
-   A procedure for delivering standardized training on the Galaxy platform, covering workflow development, execution, and management.
+   An audit assessing the procedure for Galaxy workflow development, execution, and management.
 
 .. dropdown:: 💻 Code Update & Review Procedure
 
-   A procedure outlining best practices for updating bioinformatics pipelines and performing code review.
+   An audit assessing the procedure for updating bioinformatics pipelines and performing code review.
 
-.. dropdown:: ✅ Verification Procedure
+.. dropdown:: 🔧 Systems, Hardware, and Databases
 
-   A standard operating procedure for perfoming verification of bioinformatics pipelines prior to rollout.
+   An audit assessing how procedures for logging, updating, and maintaining bioinformatics equipment, systems, hardware, and databases are implemented.
 
 All of these case studies are loosely based on real procedures used within ISO accredited laboratories.
 

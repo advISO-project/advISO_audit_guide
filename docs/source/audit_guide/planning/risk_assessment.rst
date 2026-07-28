@@ -1,83 +1,187 @@
-===============
+=================
 Risk Assessment
-===============
+=================
 
-The Focus on Risk
--------------------
-The ISO 15189:2022 standard places risk management at the core of the quality management system. For laboratories bridging wet-lab and bioinformatics workflows, evaluating risks across the entire pipeline is essential before designing and conducting an audit.
+ISO 15189:2022 places risk management at the core of the quality management system. Evaluating risks across the entire pipeline is essential before designing and conducting an audit.
 
-Risk assessment acts as a triaging tool: it helps you audit high-impact failure points first rather than trying to cover everything at once.
+Risk assessment acts as a triaging tool. It helps prioritize high-impact failure points first rather than attempting to audit every process with equal depth. Vertical audits are particularly useful for demonstrating end-to-end traceability, identifying bottlenecks, and uncovering hidden risks in the process, which auditors and accreditation bodies will want to see evidenced.
 
 .. note::
    **ISO 15189:2022 Clause Mapping**
 
-   This section addresses the core risk-based thinking requirements outlined in:
+   * **Clause 5.6 (Risk Management):** Requires laboratory management to establish, maintain, and evaluate processes to identify and manage risks to patient care.
+   * **Clause 7.1 (General Requirements):** Mandates risk assessment across pre-examination, examination, and post-examination stages, including digital and computational workflows.
+   * **Clause 8.5 (Actions to Address Risks and Opportunities):** Requires integrating risk mitigations into the quality system and evaluating their ongoing effectiveness.
 
-   * **Clause 5.6 (Risk Management):** Mandates that laboratory management establish and maintain processes to identify risks to patient care and operational integrity.
-   * **Clause 7.1 (General Process Requirements):** Requires risk assessment and mitigation across pre-examination, examination, and post-examination workflows (including bioinformatics pipelines).
-   * **Clause 8.5 (Actions to Address Risks and Opportunities):** Requires integrated planning to integrate risk actions into the quality management system and evaluate their effectiveness.
+---
 
-Domain Risks: Wet Lab vs. Bioinformatics
------------------------------------------
-.. dropdown:: Wet-Lab Failure Modes
+Selecting a Risk Assessment Framework
+--------------------------------------
 
-   * **Sample Swaps / Cross-Contamination:** Barcode index misalignment or physical contamination during library prep.
-   * **Reagent / Assay Degradation:** Using expired flow cells, degraded enzymes, or uncalibrated pipettes causing run failures or dropouts.
-   * **Inconsistent Input Data:** Variable DNA concentration/purity entering sequencing, impacting coverage uniformity.
+There is no single "correct" way to structure a risk matrix. Accreditation assessors look for evidence that your laboratory systematically identifies, evaluates, and mitigates risk—not that you adhere to a specific grid design. 
 
-.. dropdown:: Bioinformatics Failure Modes
+Laboratories should adopt or adapt a risk assessment tool that aligns with their local clinical governance, institutional policy, or relevant risk standards (such as ISO 14971 for medical devices/software). 
 
-   * **Uncontrolled Pipeline Code Changes:** A analyst making a "quick fix" directly on the production server without version control (e.g. git).
-   * **Reference Database Stale Data:** Using outdated pathogen reference genomes, leading to missed variant or lineage assignments.
-   * **Data Loss & Storage Issues:** Storage filling up mid-run or lack of backed-up FastQ/VCF files.
+The matrix below is provided purely as an **illustrative example** to demonstrate how severity and likelihood can be combined to guide audit planning.
 
-Risk Profiles by Architecture (What are you auditing?)
--------------------------------------------------------
+Example Risk Categorization Model
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The risk profile and necessary audit evidence depend heavily on the software platform being used:
+.. grid:: 1 2 3
+   :gutter: 3
 
-* **In-House / Command-Line Pipelines (e.g., Nextflow, Snakemake, Bash):**
-    * *Primary Risks:* Hardcoded paths, unpinned dependency versions, missing automated test suites, poor documentation.
-    * *Audit Focus:* Git commit history, containerization (Docker/Singularity), workflow execution logs.
+   .. grid-item-card:: 🟢 Low Risk
+      :class-card: sd-bg-light sd-border-success
 
-* **Galaxy Workflows (Local or Cloud):**
-    * *Primary Risks:* Unlocked history workflows, tool version changes upon system updates, user permission management.
-    * *Audit Focus:* Exported workflow JSON/GA files, tool version locking within Galaxy histories, user role access logs.
+      **Characteristics:** Minor operational impact (e.g., logging typos, minor internal documentation delays) with low likelihood.
 
-* **External / Commercial Platforms (SaaS / Black-Box Software):**
-    * *Primary Risks:* Lack of transparency into algorithm changes, cloud vendor lock-in, local data residency compliance.
-    * *Audit Focus:* Vendor verification/validation reports, SLA agreements, release notes review process.
+      **Audit Action:** Spot-check during routine cycles or address via periodic self-declaration.
 
-* **Databases, Systems, & LIMS Integrations:**
-    * *Primary Risks:* Manual data re-entry errors between sample accessioning and bioinformatics metadata files.
-    * *Audit Focus:* API logs, automated barcode-to-sample linkage, data validation checks at ingestion.
+   .. grid-item-card:: 🟡 Medium Risk
+      :class-card: sd-bg-light sd-border-warning
 
+      **Characteristics:** Moderate impact (e.g., re-analysis required, turnaround time delays) or minor issues with high likelihood.
 
-Risk Prioritization Matrix
----------------------------
+      **Audit Action:** Schedule for routine periodic audit (e.g., annually or bi-annually).
 
-To decide how frequently or rigorously to audit a process, map identified risks using the matrix below:
+   .. grid-item-card:: 🔴 High Risk
+      :class-card: sd-bg-light sd-border-danger
 
-+----------------+------------------------+------------------------+------------------------+
-| Impact         | Low Likelihood         | Medium Likelihood      | High Likelihood        |
-+================+========================+========================+========================+
-| **Critical**   | **Medium Risk**        | **High Risk**          | **High Risk**          |
-| (Patient harm) | (*Annual Audit*)       | (*Prioritize Audit*)   | (*Immediate Action*)   |
-+----------------+------------------------+------------------------+------------------------+
-| **Moderate**   | **Low Risk**           | **Medium Risk**        | **High Risk**          |
-| (TAT delays)   | (*Spot Check*)         | (*Annual Audit*)       | (*Prioritize Audit*)   |
-+----------------+------------------------+------------------------+------------------------+
-| **Minor**      | **Low Risk**           | **Low Risk**           | **Medium Risk**        |
-| (Minor typo)   | (*Self-Declare*)       | (*Spot Check*)         | (*Annual Audit*)       |
-+----------------+------------------------+------------------------+------------------------+
-Performing a risk assessment
--------------------
+      **Characteristics:** Critical impact on diagnostic accuracy or patient care (e.g., false variant call, sample mix-up) or frequent failure modes.
 
-.. dropdown:: Top tips!
-   :open:
-   When thinking about risk assessment for bioinformatics processes, consider the following questions to help identify and prioritize risks:
+      **Audit Action:** Prioritize for immediate vertical audit and close monitoring.
 
-   * What are the risks to patient safety?
-   * What are the risks to turnaround times (TATs?)
-   * What are the risks to data integrity?
-   * What are the risks to data security?
+---
+
+Example Matrix Structure
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+If your institution uses a traditional two-dimensional matrix, your evaluation might look similar to this model:
+
++--------------------+------------------------+------------------------+------------------------+
+| Impact Severity    | Low Likelihood         | Medium Likelihood      | High Likelihood        |
++====================+========================+========================+========================+
+| **Critical**       | **Medium Risk**        | **High Risk**          | **High Risk**          |
+| *(Patient harm)*   |                        |                        |                        |
++--------------------+------------------------+------------------------+------------------------+
+| **Moderate**       | **Low Risk**           | **Medium Risk**        | **High Risk**          |
+| *(Delay / re-run)* |                        |                        |                        |
++--------------------+------------------------+------------------------+------------------------+
+| **Minor**          | **Low Risk**           | **Low Risk**           | **Medium Risk**        |
+| *(Minor log error)*|                        |                        |                        |
++--------------------+------------------------+------------------------+------------------------+
+
+---
+
+Risk Assessing the Case Studies
+-------------------------------
+
+Below are examples of how risk assessment principles can be applied to each procedure listed in :doc:`Case Studies </audit_guide/case_studies>`. These examples illustrate the thought process assessors expect to see evidenced.
+
+.. dropdown:: 🧪 Laboratory Procedure
+
+   **Process Scope:** Preparation of Illumina sequencing libraries from DNA.
+
+   * **Identified Risks:**
+     
+     * Sample swaps or index misalignment during manual plate setup.
+     * Reagent degradation or pipette calibration errors leading to low library yield.
+     * Cross-contamination between high-concentration and low-concentration samples.
+
+   * **Example Evaluation:**
+     
+     * *Impact:* High (Sample swaps lead to incorrect patient results).
+     * *Likelihood:* Medium (Depends on level of manual handling vs. liquid handling automation).
+     * *Overall Risk Level:* **High Risk**
+
+.. dropdown:: 🧬 Bioinformatics QC Procedure
+
+   **Process Scope:** Assessing the quality of Illumina sequencing reads (FASTQ files) prior to downstream analysis.
+
+   * **Identified Risks:**
+     
+     * Undetected adapter contamination or phred score degradation passing filtering.
+     * Incorrect quality score encoding (Phred+33 vs Phred+64) in custom scripts.
+     * Corrupted FASTQ files during transfer from sequencer to storage server.
+
+   * **Example Evaluation:**
+     
+     * *Impact:* Moderate (Low-quality reads can lead to failed variant calling or re-analysis delays).
+     * *Likelihood:* Medium (Data transfer steps and multi-vendor instruments introduce variations).
+     * *Overall Risk Level:* **Medium Risk**
+
+.. dropdown:: 🧬 Bioinformatics Analysis Procedure
+
+   **Process Scope:** Analyzing Illumina sequencing reads to identify variants and generate reports for clinical interpretation.
+
+   * **Identified Risks:**
+     
+     * Reference genome version mismatches between analysis pipeline steps.
+     * Unvalidated parameter changes in variant calling algorithms.
+     * Stale database versions for pathogen strain or resistance marker identification.
+
+   * **Example Evaluation:**
+     
+     * *Impact:* Critical (Directly impacts diagnostic accuracy and patient treatment decisions).
+     * *Likelihood:* Medium (Complex command-line parameters or frequent database updates).
+     * *Overall Risk Level:* **High Risk**
+
+.. dropdown:: 🌌 Galaxy Training Procedure
+
+   **Process Scope:** Workflow development, execution, and user management within a Galaxy environment.
+
+   * **Identified Risks:**
+     
+     * Analysts modifying tool parameters inside active histories without updating the master workflow.
+     * Automatic tool updates altering underlying execution parameters.
+     * Shared user credentials or improper permission settings on shared histories.
+
+   * **Example Evaluation:**
+     
+     * *Impact:* Moderate (Loss of reproducibility across diagnostic runs).
+     * *Likelihood:* Medium (Multiple users accessing the same instance).
+     * *Overall Risk Level:* **Medium Risk**
+
+.. dropdown:: 💻 Code Update & Review Procedure
+
+   **Process Scope:** Updating bioinformatics pipelines, scripts, and conducting code review.
+
+   * **Identified Risks:**
+     
+     * Direct edits made to production scripts without version control (Git).
+     * Lack of peer code review prior to deploying software updates.
+     * Unpinned software dependencies pulling updated packages automatically.
+
+   * **Example Evaluation:**
+     
+     * *Impact:* High (Unintended side effects can break downstream analysis across all samples).
+     * *Likelihood:* High (If formal change-control procedures are not strictly enforced).
+     * *Overall Risk Level:* **High Risk**
+
+.. dropdown:: 🔧 Systems, Hardware, and Databases
+
+   **Process Scope:** Logging, updating, and maintaining bioinformatics equipment, systems, hardware, and databases.
+
+   * **Identified Risks:**
+     
+     * Storage capacity limits reached during an active sequencing run.
+     * Lack of routine off-site or secondary backups for raw sequencing data.
+     * Unmonitored hardware failure or system outages.
+
+   * **Example Evaluation:**
+     
+     * *Impact:* High (Permanent loss of primary diagnostic data or extended service downtime).
+     * *Likelihood:* Low (If monitoring and infrastructure checks are established).
+     * *Overall Risk Level:* **Medium Risk**
+
+---
+
+Exercise: Risk Assess Your Own Workflows
+----------------------------------------
+
+When evaluating internal procedures using your facility's chosen risk framework:
+
+1. **Define the Procedure:** Name the process and clearly establish its boundaries (inputs and outputs).
+2. **List Potential Failure Points:** Identify failure modes across hardware, software, user actions, and data transfer.
+3. **Assign Risk Ratings:** Apply your institution’s severity and likelihood criteria.
+4. **Determine Audit Priority:** Focus vertical audits on high-risk steps where failure directly impacts patient care or diagnostic integrity.
