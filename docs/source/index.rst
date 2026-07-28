@@ -16,7 +16,7 @@ This documentation was developed as part of the Wellcome Trust–funded project:
 .. toctree::
    :maxdepth: 2
 
-   introduction
+   audit_guide/introduction
    audit_guide/modular_alternative
    audit_guide/case_studies
    audit_guide/planning/risk_assessment
