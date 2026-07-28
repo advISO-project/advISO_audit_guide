@@ -1,6 +1,6 @@
-=============
-Case studies
-=============
+============
+Case Studies
+============
 
 Throughout this guide we make use of a series of case studies to illustrate how the modular audit structure can be applied in practice:
 

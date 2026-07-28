@@ -1,5 +1,5 @@
-Welcome to the advISO Audit Guide
-=======================================
+Welcome to the Adviso Audit Guide
+=================================
 
 **Release:** |release| [|today|]
 

@@ -1,6 +1,6 @@
 .. _glossary:
 
-Glossary of ISO terms
+Glossary of ISO Terms
 =====================
 
 In clinical and research settings, the language and processes used in bioinformatics often differ significantly from those in traditional wet lab environments. Wet lab terminology typically centers around physical procedures, instruments, and biological materials, whereas bioinformatics relies on computational workflows, data structures, and algorithmic logic. This divergence can lead to confusion when interpreting standards like ISO 15189, which were originally designed with laboratory diagnostics in mind. To bridge this gap, the glossary below provides definitions for common ISO 15189-related terms alongside their bioinformatics translations and example usages. Whether you're validating a pipeline or calibrating a sequencer, this resource helps clarify how foundational concepts apply across both domains.
