@@ -1,5 +1,6 @@
-Recording
-==============
+=============================
+Recording of Change History
+=============================
 
 
 .. important::
