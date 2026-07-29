@@ -30,5 +30,5 @@ This documentation was developed as part of the Wellcome Trust–funded project:
    audit_guide/findings/root_cause
    audit_guide/findings/reporting
    audit_guide/findings/effectiveness_check
-   audit_guide/findings/management_review
+   audit_guide/review/management_review
    glossary
