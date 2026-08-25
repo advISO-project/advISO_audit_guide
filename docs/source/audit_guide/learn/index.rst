@@ -12,12 +12,12 @@ Throughout this guide we make use of a series of case studies to illustrate how 
 
    An audit assessing the bioinformatics procedure for assessing the quality of Illumina sequencing reads prior to downstream analysis and reporting.
 
-.. dropdown:: 🧬 Bioinformatics Analysis Procedure
+.. dropdown:: 🧬 Bioinformatics Analysis Pipeline
 
    An audit assessing the bioinformatics procedure for analysing Illumina sequencing reads to identify variants and generate a report for clinical interpretation.
 
-.. dropdown:: 🌌 Galaxy Training Procedure
-  
+.. dropdown:: 🌌 Galaxy Workflows
+
    An audit assessing the procedure for Galaxy workflow development, execution, and management.
 
 .. dropdown:: 💻 Code Update & Review Procedure
@@ -28,7 +28,8 @@ Throughout this guide we make use of a series of case studies to illustrate how 
 
    An audit assessing how procedures for logging, updating, and maintaining bioinformatics equipment, systems, hardware, and databases are implemented.
 
-All of these case studies are loosely based on real procedures used within ISO accredited laboratories.
+All of these case studies are loosely based on real procedures
+used within ISO accredited laboratories.
 
 ----------------
 
