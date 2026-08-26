@@ -3,9 +3,9 @@ Welcome to the AdvISO Audit Guide
 
 **Release:** |release| [|today|]
 
-The following pages have been developed to provide comprehensive guidance on the design and implementation of internal audits for organisations working toward accreditation under the ISO 15189 (medical laboratories) and ISO (17025) (testing and calibration laboratories) standards.
+This guide is intended to support bioinformatics teams in diagnostic laboratories design, implement, and maintain internal audits for ISO 15189:2022 (medical) and ISO 17025:2017 (testing) accreditation. It is designed to be modular and adaptable to the specific needs of bioinformatics processes and teams, wherever they are in their accreditation journey.
 
-This guide is intended to be used by microbial bioinformatics teams within medical laboratories. It explains in detail how internal audits should be designed, maintained and implemented to meet international requirements. It offers practical advice, examples, and frameworks that enable laboratories to design and implement audits which not only comply with ISO standards but also serve as clear, reliable evidence of quality and competence. 
+Through practical case studies, this guide aims to identify and bridge any gaps between wet laboratory and bioinformatics teams, providing a shared understanding of the internal audit process and how it can be applied to bioinformatics workflows.
 
 A :ref:`Glossary of ISO terms <glossary>` is also provided, offering definitions and bioinformatics-specific translations to faciliate clear communication and shared understanding between both wet and dry laboratory teams. This glossary is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise. 
 
@@ -14,10 +14,9 @@ A :ref:`Glossary of ISO terms <glossary>` is also provided, offering definitions
 This documentation was developed as part of the Wellcome Trust–funded project: “ISO in a Box: Developing a framework to enable the development of end-to-end genomics-based ISO 15189 and ISO 17025 accredited services, anywhere in the world” (Grant Reference: 228162/Z/23/Z)
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
-   :caption: Table of Contents
+   :caption: Quick Start:
 
-   audit_guide/do/index
-   audit_guide/explain/index
-   audit_guide/learn/index
-   audit_guide/lookup/index
+   audit_guide/introduction
+   audit_guide/case_studies
