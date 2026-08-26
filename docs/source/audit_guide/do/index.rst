@@ -9,7 +9,7 @@ You do not need to read modules in order
 
 .. toctree::
    :maxdepth: 1
-   :caption: Planning
+   :caption: Plan
  
    planning/risk_assessment
    planning/schedule
@@ -18,7 +18,7 @@ You do not need to read modules in order
  
 .. toctree::
    :maxdepth: 1
-   :caption: Execution
+   :caption: Execute
  
    execution/evidence
    execution/perform
