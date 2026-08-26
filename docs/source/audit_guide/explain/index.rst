@@ -9,6 +9,5 @@ will be auditing.
  
 .. toctree::
    :maxdepth: 1
- 
+
    introduction
-   modular_alternative
