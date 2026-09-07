@@ -8,7 +8,7 @@ Throughout this guide we make use of a series of case studies to illustrate how 
 
 .. dropdown:: 🧪 Laboratory Procedure
 
-   An audit assessing the process for preparing Illumina sequencing libraries from DNA.
+   An audit assessing the procedure for preparing Illumina sequencing libraries from DNA.
 
 .. dropdown:: 🧬 Bioinformatics QC Procedure
 

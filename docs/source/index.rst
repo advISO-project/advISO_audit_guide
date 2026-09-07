@@ -3,11 +3,11 @@ Welcome to the AdvISO Audit Guide
 
 **Release:** |release| [|today|]
 
-This guide is intended to support bioinformatics teams in diagnostic laboratories design, implement, and maintain internal audits for ISO 15189:2022 (medical) and ISO 17025:2017 (testing) accreditation. It is designed to be modular and adaptable to the specific needs of bioinformatics processes and teams, wherever they are in their accreditation journey.
+This guide is intended to support bioinformatics teams in diagnostic laboratories to design, implement, and maintain internal audits for ISO 15189:2022 (medical) accreditation. It is designed to be modular and adaptable to the specific needs of bioinformatics procedures and teams, wherever they are in their accreditation journey.
 
-Through practical :ref:`case studies <case_studies>`, this guide aims to identify and bridge any gaps between wet laboratory and bioinformatics teams, providing a shared understanding of the internal audit process and how it can be applied to bioinformatics workflows.
+Through practical :ref:`case studies <case_studies>`, this guide applies the internal audit process many readers will already know from wet laboratory accreditation directly to bioinformatics procedures. 
 
-A :ref:`Glossary of ISO terms <glossary>` is also provided, offering definitions and bioinformatics-specific translations to faciliate clear communication and shared understanding between both wet and dry laboratory teams. This glossary is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise. 
+A :ref:`Glossary of ISO terms <glossary>` is also provided, translating ISO 15189:2022 termninology and its bioinformatics equivalents.
 
 -------------------
 

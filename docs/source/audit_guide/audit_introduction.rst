@@ -4,8 +4,6 @@ Introducing Audits for Bioinformatics Teams
 
 :ref:`Internal audits <internal_audits>` are systematic, independent evaluations of an organisation's processes, procedures, and systems to ensure compliance with established standards and identify areas for improvement. Internal audits play a crucial role in maintaining quality management systems and achieving accreditation under standards such as ISO 15189.
 
-
-
 Audits can be structured in different ways depending on what you want to check. The three approaches below are not mutually exclusive and a well-designed audit programme will usually draw on all three at different times, acoording to the specific needs of the laboratory and the processes being audited.
 
 .. dropdown:: ↕️ Vertical audit
