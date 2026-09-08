@@ -9,13 +9,14 @@ If you already audit wet laboratory processes, you may be familiar with the pre-
 .. figure:: ../images/e2e_sample_journey.svg
    :alt: Sample Journey Diagram
    :align: left
-   :width: 250px
+   :width: 150px
 
    *Figure 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
 
 .. figure:: ../images/bioinformatics_sample_journey.svg
    :alt: Sample Journey Diagram
    :align: left
+   :width: 250px
    
    *Figure 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process. 
 
