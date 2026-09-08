@@ -2,22 +2,28 @@
 Sample Journey
 ===============================================
 
-Before designing your audits, it might be useful to map out the *sample journey* - the path a sample takes from initial raw input to final output. This exercise can help pinpoint key steps, identify risks, and decide which audit type (vertical, horizontal, or cross-audit) best fits each stage of the bioinformatics process. It also helps to focus audit efforts on areas of highest risk and importance.
+Before designing internal audits for bioinformatics processes, it might be useful to map out the *sample journey*: the path a sample takes from initial input to final output. Doing this means thinking about how your own bioinformatics processes work, which then becomes the basis for choosing suitable :doc:`audit types <audit_introduction>`, and creating your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`. This helps identify risks and gaps in your bioinformatics processes, and determine how the frequency based on risk level. 
 
-If you already audit wet-lab processes, you may be familiar with the pre-examination, examination, and post-examination framework in ISO 15189. That framework describes the test as a sample journey, from requesting user to reporting user. In bioinformatics, the sample journey may be different as it may not cover that whole. So the more useful question to ask is: where does your bioinformatics team's scope begin and end within that whole test? And where are the risks
+If you already audit wet laboratory processes, you may be familiar with the pre-examination, examination, and post-examination framework in ISO 15189 (Fig. 1). That framework describes the whole examination process as a sample journey, from request to report. In bioinformatics, however, your scope and responsibility within that examination process may only cover part of it (Fig. 2). So, the more useful questions to ask are: **where does your bioinformatics team's scope and responsibility begins and ends within that examination process, and where are the risks?** 
 
-
-.. image:: ../images/sample_journey.svg
+.. figure:: ../images/e2e_sample_journey.svg
    :alt: Sample Journey Diagram
-   :align: center
-   :width: 600px
+   :align: left
+   :width: 250px
 
-*Figure 1: Diagram illustrating the principal idea of the sample journey, forming the axis for auditing bioinformatics procedures and processes.*
+   *Figure 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
+
+.. figure:: ../images/bioinformatics_sample_journey.svg
+   :alt: Sample Journey Diagram
+   :align: left
+   
+   *Figure 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process. 
+
 
 
 Examples of mapping the sample journey to bioinformatics processes
 -------------------------------------------------------------------
-Have a go at mapping the sample journey for your own bioinformatics processes.
+ a go at mapping the sample journey for your own bioinformatics processes.
 
 Once you have mapped out these journeys, match the key steps to the appropriate audit type (vertical, horizontal, or cross-audit). Doing this ensures all critical areas are covered, reveals where risks or gaps hide, and helps you determine how often each step needs to be audited based on its risk level.
 
