@@ -9,12 +9,14 @@ If you already audit wet laboratory processes, you may be familiar with the pre-
 .. figure:: ../images/e2e_sample_journey.svg
    :alt: Sample Journey Diagram
    :align: center
+   :width: 50%
 
    *Figure 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
 
 .. figure:: ../images/bioinformatics_sample_journey.svg
    :alt: Sample Journey Diagram
    :align: center
+   :width: 80%
    
    *Figure 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process. 
 
@@ -22,9 +24,11 @@ If you already audit wet laboratory processes, you may be familiar with the pre-
 
 Examples of mapping the sample journey to bioinformatics processes
 -------------------------------------------------------------------
- a go at mapping the sample journey for your own bioinformatics processes.
 
-Once you have mapped out these journeys, match the key steps to the appropriate audit type (vertical, horizontal, or cross-audit). Doing this ensures all critical areas are covered, reveals where risks or gaps hide, and helps you determine how often each step needs to be audited based on its risk level.
+The below diagram describes a bioinformatics analysis pipeline for "Pathogen X" from raw input to final output. Here, "Laboratory X" receives a sequenced sample, performs quality control, and then runs a bioinformatics analysis pipeline involving multiple steps to generate a report for interpretation. The report is then sent to the requesting clinician. 
+
+The sample journey here is nested in the examination and post-examination stages of the overall examination process because the bioinformatics team is responsible for the bioinformatics analysis pipeline, and the laboratory team is responsible for the laboratory procedure.
+
 
 
 .. dropdown:: 🧪 Laboratory Procedure
