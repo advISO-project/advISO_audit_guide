@@ -2,56 +2,32 @@
 Sample Journey
 ===============================================
 
-Before designing internal audits for bioinformatics processes, it might be useful to map out the *sample journey*: the path a sample takes from initial input to final output. Mapping the sample journey means thinking about how your own bioinformatics processes work, which then becomes the scaffolding for identifying risks and gaps in these processes. From here, you can choose suitable :doc:`audit types <audit_introduction>`, and create your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`.
+Before designing internal audits for bioinformatics processes, it might be useful to map out the *sample journey*: the path a sample takes from initial input to final output. Doing this means thinking about how your own bioinformatics processes work, which then becomes the basis for choosing suitable :doc:`audit types <audit_introduction>`, and creating your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`. This helps identify risks and gaps in your bioinformatics processes, and determine how the frequency based on risk level. 
 
-If you already audit wet laboratory processes, you may be familiar with the sample journey as the pre-examination, examination, and post-examination framework in ISO 15189 (Fig. 1, below)
-
-.. figure:: ../images/e2e_sample_journey.svg
-   :alt: Sample Journey Diagram
-   :align: center
-   :height: 300px
-
-   *Fig. 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
+If you already audit wet laboratory processes, you may be familiar with the pre-examination, examination, and post-examination framework in ISO 15189 (Fig. 1). That framework describes the whole examination process as a sample journey, from request to report. In bioinformatics, however, your scope and responsibility within that examination process may only cover part of it (Fig. 2). So, the more useful questions to ask are: **where does your bioinformatics team's scope and responsibility begin and end within that examination process, and where are the risks?** 
 
 
-That framework describes the whole examination process as a sample journey, from request to report. In **bioinformatics**, however, your scope and responsibility within that examination process **may only cover part of it** (Fig. 2, below). 
+.. subfigure:: AB
 
-.. figure:: ../images/bioinformatics_sample_journey.svg
-   :alt: Bioinformatics Sample Journey Diagram
-   :align: center
-   :height: 300px
+   .. figure:: ../images/e2e_sample_journey.svg
+      :alt: Sample Journey Diagram
+      :align: center
+      :width: 40%
 
-   *Fig. 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process.
+      *Figure 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
+
+   .. figure:: ../images/bioinformatics_sample_journey.svg
+      :alt: Sample Journey Diagram
+      :align: center
+      :width: 40%
+      
+      *Figure 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process.
 
 
-So, the more useful questions to ask at this point are: **where do your bioinformatics team's scope and responsibility begin and end within that examination process, and where are the risks?**
+
 
 Worked example: the Pathogen X bioinformatics sample journey
 -------------------------------------------------------------
-The following worked example describes a generic bioinformatics analysis pipeline for **Pathogen X**, from initial input to final output (Fig. 3, below). Here, **Laboratory X** receives a sequenced sample, performs quality control, then runs a bioinformatics analysis pipeline involving multiple steps to generate a report for interpretation. The report is then sent to the requesting clinician.
-
-.. figure:: ../images/pathogen_x_pipeline.svg
-   :align: center
-   :width: 100%
-
-   *Fig. 3:* Example of a bioinformatics sample journey for "Pathogen X," showing the scope of bioinformatics processes and how they may fit into the overall examination process.
-
-In this example, the bioinformatics sample journey *could* be nested within the examination and post-examination stages of the overall examination process. It may be that the bioinformatics scope is an extension of the wet laboratory examintion stage, and the bioinformatics report is pre-determinant of the wet laboratory report. 
-
-Mapping a process like this as a flowchart is only half the exercise. The other half is asking, at each stage, what factors could unintentionally change the final output, and what is the impact of such changes? 
-
-For instance, the QC steps depend on threshold values - is this value configured? Has it ever been adjusted outside of a documented process?
-
-Let's hypothesise that the analysis pipeline depends on a reference database - if that database updates beyond your control tomorrow, would the pipeline's output change, and would anyone know? Does it impact the interpretation? The final report depends on the code that produced it - could you establish, today, exactly which version of that code ran on a sample analysed six months ago?
-
-What if there was an SOP missing for a step in the pipeline, and a new team member performed that step differently than the previous team member? Would anyone know? Would it impact the final report?
-
-For an automated pipeline, what if a new version of a tool was released and automatically updated in the pipeline? Would anyone know? Would it impact the final report?
-
-None of these questions have a fixed answer. What they point to is a way of readng your own sample journey 
-
-None of these questions has a fixed answer. What they point to is a way of reading your own sample journey: not just where a sample goes, but what it silently depends on at each stage, and how those dependencies could shift.
-
 
 The following worked example describes a bioinformatics analysis pipeline for "Pathogen X," from raw input to final output. "Laboratory X" receives a sequenced sample, performs quality control, then runs a bioinformatics analysis pipeline involving multiple steps to generate a report for interpretation. The report is then sent to the requesting clinician.
 
@@ -62,6 +38,8 @@ In this example, the bioinformatics sample journey is nested within the examinat
 The dropdowns below offer two ways to continue this mapping exercise for your own bioinformatics processes.
 
 
+
+
 .. dropdown:: 🧪 Laboratory Procedure
 
    Map the laboratory procedure for processing samples from initial receipt to final reporting. This could include identifying risks at the pre-examination, examination, and post-examination stages. 
@@ -70,10 +48,31 @@ The dropdowns below offer two ways to continue this mapping exercise for your ow
 
    Map the bioinformatics quality control procedures for processing samples from raw input to final output. This could include quality scores, read trimming, 
 
+   :align: center
+   :width: 40%
+
+   *Figure 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
+
+.. figure:: ../images/bioinformatics_sample_journey.svg
+   :alt: Sample Journey Diagram
+   :align: center
+   :width: 70%
+   
+   *Figure 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process. 
 
 
 
 
+Worked example: the Pathogen X bioinformatics sample journey
+-------------------------------------------------------------
+
+The following worked example describes a bioinformatics analysis pipeline for "Pathogen X," from raw input to final output. "Laboratory X" receives a sequenced sample, performs quality control, then runs a bioinformatics analysis pipeline involving multiple steps to generate a report for interpretation. The report is then sent to the requesting clinician.
+
+.. TODO: Insert Figure 3 once diagram is complete — Pathogen X QC-plus-analysis pipeline walkthrough.
+
+In this example, the bioinformatics sample journey is nested within the examination and post-examination stages of the overall examination process: the bioinformatics team is responsible for the analysis pipeline, and the laboratory team is responsible for the laboratory procedure. This division reflects how responsibility happens to fall in this example — it is not a claim about how bioinformatics and laboratory teams generally divide responsibility, and your own team's scope may differ.
+
+The dropdowns below offer two ways to continue this mapping exercise for your own bioinformatics processes.
 
 
 

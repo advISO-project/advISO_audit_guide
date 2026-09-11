@@ -25,5 +25,3 @@ Audits can be structured in different ways depending on what you want to check. 
     A cross-audit is performed by someone independent of the team or process being audited, rather than someone reviewing their own work. This independence is what gives the findings credibility. 
 
     Note: a key limitation to bioinformatics cross-audits is finding other bioinformatics teams with relevant domain-specific knowledge and experience to perform the cross-audit, as they will need to be independent of the team being audited. This is particularly challenging for small laboratories with only one bioinformatics team, where it may be necessary to seek external auditors from other laboratories or organisations.
-
-Audits follow cycles of planning, execution, reporting, and follow-up. The audit cycle is a continuous process that ensures that audits are conducted regularly and that findings are addressed in a timely manner.
