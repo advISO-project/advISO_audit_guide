@@ -2,54 +2,22 @@
 Audit Schedule
 ==============
 
-Mapping your :doc:sample journey`sample journey` surfaces where risk sites in your bioinformatics processes. This section turns that mapping into a practical audit plan: which processes get audited, and how often.
+Mapping your sample journey surfaces where risk sits in your bioinformatics processes. This module turns that mapping into a practical and documented action plan: which bioinformatics processes are prioritised for audit, and how often they are audited.
 
-Under ISO 15189:2022, internal audits are planned according to the level of risk associated with a process, together with findings from previous audits. A schedule is not fixed. It can change as risks shift, as new tools or equipment are introduced, or as bioinformatics processes evolve.
+Under ISO 15189:2022, internal audits are planned according to the level of risk associated with a process, together with any previous findings, compliments and complaints, and any major changes to processes that have perhaps warranted a recent validation.
 
-Why a bioinformatics schedule may differ from a wet laboratory schedule
-======================================
+In a typical audit cycle (e.g. a financial year), this schedule is not fixed. It being flexible means it can be responsive to risks changing as bioinformatics processes themselves change.
 
-If your laboratory already has an audit schedule for wet laboratory processes, it may stand to reason that your bioinformatics processes should be audited at the same frequency. However, the risks that drive audit frequency in bioinformatics do not move at the same pace as wet laboratory ones. 
+If your laboratory already has an audit schedule from wet laboratory processes, you may choose to integrate audits for bioinformatics into this, or you may keep it separate. Where a risk you identified is specific to a bioinformatics process, it may call for its own audit frequency, as it can be more responsive to how a bioinformatics process evolves, with respect to the overall end-to-end process that includes both wet laboratory and bioinformatics processes.
 
+The frequency bands below are one example of mapping risk level to audit frequency, which can be adjusted to fit a specific bioinformatics laboratory’s needs and capacity.
 
+Low Risk 🟢 | Audit Frequency: Annual
 
-Where your sample journey mapping identified risks in either category, those risks may call for their own audit frequency, separate from an existing wet laboratory schedule.
+Medium Risk 🟡 | Audit Frequency: Every 6 months
 
-Applying this to your own case studies
-=========================================
-
-The two worked examples above show the reasoning for one vertical and one horizontal process. The dropdowns below extend that reasoning to the remaining case study areas. Use them to think through a frequency for each process in your own bioinformatics processes — not all six will necessarily apply, and some may turn out to be low risk.
+High Risk 🔴 | Audit Frequency: Every 3 months
 
 
-Vertical: steps in the sample journey
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. dropdown:: 🧪 Laboratory Procedure
-
-   *Since the last audit of this procedure, has anything changed that would justify a different frequency — new instrumentation, a revised SOP, a change in sample volume?*
-
-.. dropdown:: 🧬 Bioinformatics QC Procedure
-
-   *How often does a QC threshold or parameter actually change? Does your current frequency match how often that happens?*
-
-.. dropdown:: 🧬 Bioinformatics Analysis Pipeline
-
-   *If this pipeline is updated more often than it is audited, what risk does that gap leave uncovered?*
-
-
-Horizontal: consistency across pipelines
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. dropdown:: 🌌 Galaxy Workflows
-
-   *If a workflow or tool version changes, does that trigger a review on its own, or only at the next scheduled audit?*
-
-.. dropdown:: 💻 Code Update & Review Procedure
-
-   *Does this procedure's audit frequency reflect how often code actually changes, or how often the laboratory happens to audit?*
-
-.. dropdown:: 🔧 Systems, Hardware, and Databases
-
-   *Do your systems, hardware, or databases change frequently enough that a scheduled audit might be the only way you would find out?*
-
-----------------
+Once you have a frequency for each process, the next step is defining what an audit against that schedule actually checks (see :doc:`Checklist <checklist>`). 
