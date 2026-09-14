@@ -2,7 +2,7 @@
 Audit Schedule
 ==============
 
-Mapping your sample journey surfaces where risk sits in your bioinformatics processes. This module turns that mapping into a practical and documented action plan: which bioinformatics processes are prioritised for audit, and how often they are audited.
+Mapping your :doc:`sample journey` surfaces where risk sits in your bioinformatics processes. This page turns that mapping exercise into a practical and documented action plan: which bioinformatics processes are prioritised for audit, and how often they are audited.
 
 Under ISO 15189:2022, internal audits are planned according to the level of risk associated with a process, together with any previous findings, compliments and complaints, and any major changes to processes that have perhaps warranted a recent validation.
 
@@ -12,12 +12,23 @@ If your laboratory already has an audit schedule from wet laboratory processes, 
 
 The frequency bands below are one example of mapping risk level to audit frequency, which can be adjusted to fit a specific bioinformatics laboratory’s needs and capacity.
 
-Low Risk 🟢 | Audit Frequency: Annual
+.. grid:: 1 3 3
+   :gutter: 2
 
-Medium Risk 🟡 | Audit Frequency: Every 6 months
+   .. grid-item-card:: Low Risk 🟢
+      :class-header: bg-success text-white font-weight-bold
 
-High Risk 🔴 | Audit Frequency: Every 3 months
+      **Audit Frequency:** Annual
 
+   .. grid-item-card:: Medium Risk 🟡
+      :class-header: bg-warning text-dark font-weight-bold
+
+      **Audit Frequency:** Every 6 months
+
+   .. grid-item-card:: High Risk 🔴
+      :class-header: bg-danger text-white font-weight-bold
+
+      **Audit Frequency:** Every 3 months
 
 
 Once you have a frequency for each process, the next step is defining what an audit against that schedule actually checks (see :doc:`Checklist <checklist>`). 
