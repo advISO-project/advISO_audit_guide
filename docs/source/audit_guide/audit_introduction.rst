@@ -2,7 +2,7 @@
 Introducing Audits for Bioinformatics Teams
 ===============================================
 
-:ref:`Internal audits <internal_audits>` are systematic, independent evaluations of an organisation's processes, procedures, and systems to ensure compliance with established standards and identify areas for improvement. Internal audits play a crucial role in maintaining quality management systems and achieving accreditation under standards such as ISO 15189.
+Internal audits are systematic, independent evaluations of an organisation's processes, procedures, and systems to ensure compliance with established standards and identify areas for improvement. Internal audits play a crucial role in maintaining quality management systems and achieving accreditation under standards such as ISO 15189.
 
 Audits can be structured in different ways depending on what you want to check. The three approaches below are not mutually exclusive and a well-designed audit programme will usually draw on all three at different times, acoording to the specific needs of the laboratory and the processes being audited.
 
@@ -27,3 +27,5 @@ Audits can be structured in different ways depending on what you want to check. 
     Note: a key limitation to bioinformatics cross-audits is finding other bioinformatics teams with relevant domain-specific knowledge and experience to perform the cross-audit, as they will need to be independent of the team being audited. This is particularly challenging for small laboratories with only one bioinformatics team, where it may be necessary to seek external auditors from other laboratories or organisations.
 
 Audits follow cycles of planning, execution, reporting, and follow-up. The audit cycle is a continuous process that ensures that audits are conducted regularly and that findings are addressed in a timely manner.
+
+What are the objectives of your audits?

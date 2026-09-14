@@ -13,4 +13,3 @@ What are the objectives of your audits?
 
 .. note::
    **ISO 15189:2022 Clause Mapping**
----
