@@ -11,7 +11,7 @@ A :ref:`Glossary of ISO terms <glossary>` is also provided, translating ISO 1518
 
 -------------------
 
-This documentation was developed as part of the Wellcome Trust–funded project: “ISO in a Box: Developing a framework to enable the development of end-to-end genomics-based ISO 15189 and ISO 17025 accredited services, anywhere in the world” (Grant Reference: 228162/Z/23/Z)
+This documentation was developed as part of the Wellcome Trust-funded project: “ISO in a Box: Developing a framework to enable the development of end-to-end genomics-based ISO 15189 and ISO 17025 accredited services, anywhere in the world” (Grant Reference: 228162/Z/23/Z)
 
 Find out more about the `advISO Bioinformatics accreditation in a box project <https://www.cardiff.ac.uk/adviso-bioinformatics-accreditation>`_.
 
