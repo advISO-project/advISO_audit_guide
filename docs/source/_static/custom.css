@@ -14,3 +14,70 @@ div.funding-box h3 {
   color: #1A2A6C !important;              /* Dark blue heading */
   font-weight: bold;
 }
+
+/* ==========================================================================
+   Flip-Cards Styling
+   ========================================================================== */
+.flip-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+.flip-card.is-flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.flip-card-front {
+  background-color: #648FFF; /* Matches colour-blind theme */
+  color: white;
+  border: 1px solid #648FFF;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.flip-card-back {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  transform: rotateY(180deg);
+  border: 1px solid #648FFF; 
+  font-size: 0.95em;
+  line-height: 1.4;
+}

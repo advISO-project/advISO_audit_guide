@@ -2,115 +2,202 @@
 Sample Journey
 ===============================================
 
-Before designing internal audits for bioinformatics processes, it might be useful to map out the *sample journey*: the path a sample takes from initial input to final output. Mapping the sample journey means thinking about how your own bioinformatics processes work, which then becomes the scaffolding for identifying risks and gaps in these processes. From here, you can choose suitable :doc:`audit types <audit_introduction>`, and create your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`.
+Before designing internal audits for bioinformatics processes, it might be useful to map out the **sample journey**: the path a sample takes from initial input to final output. Mapping the sample journey means thinking about how your own bioinformatics processes work, which then becomes the scaffolding for identifying risks and gaps in these processes. From here, you can choose suitable :doc:`audit types <audit_introduction>`, and then create your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`.
 
-If you already audit wet laboratory processes, you may be familiar with the sample journey as the pre-examination, examination, and post-examination framework in ISO 15189 (Fig. 1, below)
+If you already audit wet laboratory processes, you may be familiar with the sample journey as the ISO 15189 **pre-examination**, **examination**, and **post-examination** framework (Fig. 1, below).
 
 .. figure:: ../images/e2e_sample_journey.svg
    :alt: Sample Journey Diagram
    :align: center
    :height: 300px
 
-   *Fig. 1:* Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
+   Overview of the sample journey, i.e. the pre-examination, examination, and post-examination stages, from request to report.
 
 
-That framework describes the whole examination process as a sample journey, from request to report. In **bioinformatics**, however, your scope and responsibility within that examination process **may only cover part of it** (Fig. 2, below). 
+That framework describes the whole examination process as a sample journey, from request to report. In **bioinformatics**, however, your scope and responsibility within that examination process may only cover **part of it** (Fig. 2, below), because the responsibility for other stages in the sample journey may lie with another team, or there may be shared responsibility between different teams. 
 
 .. figure:: ../images/bioinformatics_sample_journey.svg
    :alt: Bioinformatics Sample Journey Diagram
    :align: center
    :height: 300px
 
-   *Fig. 2:* Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process.
+   Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process.
+
+.. card:: 💡 advISO Tips
+   :class-card: sd-border-success sd-shadow-md
+   :class-header: sd-bg-success sd-text-white sd-font-weight-bold
+
+   When evaluating your sample journey against Fig. 2, consider:
+
+   1. Where does your bioinformatics team's scope and responsibility begin and end within the examination process?
+   2. Within that specific bioinformatics scope, where are the risks? How and why could the process fail or not yield expected results?
+   3. What are the clinical, operational, or reporting impacts of those risks?
+   4. Are those risks actively mitigated by your Quality Management System (QMS)?
 
 
-So, the more useful questions to ask at this point are: **where do your bioinformatics team's scope and responsibility begin and end within that examination process, and where are the risks?**
-
-Worked example: the Pathogen X bioinformatics sample journey
+Worked Example: Pathogen X
 -------------------------------------------------------------
-The following worked example describes a generic bioinformatics analysis pipeline for **Pathogen X**, from initial input to final output (Fig. 3, below). Here, **Laboratory X** receives a sequenced sample, performs quality control, then runs a bioinformatics analysis pipeline involving multiple steps to generate a report for interpretation. The report is then sent to the requesting clinician.
+
+The following worked example describes a generic bioinformatics analysis pipeline for **Pathogen X**, tracing data flow from raw input to final report (Fig. 3). 
+
+Here, a genomics laboratory receives a sequenced sample, performs initial quality control (QC), and executes a multi-step bioinformatics pipeline to generate an analytical report. This report is subsequently passed to a clinician for interpretation.
 
 .. figure:: ../images/pathogen_x_pipeline.svg
    :align: center
    :width: 100%
 
-   *Fig. 3:* Example of a bioinformatics sample journey for "Pathogen X," showing the scope of bioinformatics processes and how they may fit into the overall examination process.
+   Example of a bioinformatics sample journey for "Pathogen X" showing the nested scope of bioinformatics processes within the overall examination workflow.
 
-In this example, the bioinformatics sample journey *could* be nested within the examination and post-examination stages of the overall examination process. It may be that the bioinformatics scope is an extension of the wet laboratory examintion stage, and the bioinformatics report is pre-determinant of the wet laboratory report. 
+In this example, the bioinformatics sample journey is nested within the examination and post-examination stages: the bioinformatics team manages the analysis pipeline, while the wet laboratory manages sample preparation and sequence generation. This division is illustrative—how responsibilities are divided will vary by institution.
 
-Mapping a process like this as a flowchart is only half the exercise. The other half is asking, at each stage, what factors could unintentionally change the final output, and what is the impact of such changes? 
+Mapping a pipeline as a flowchart is only the first half. The second half is interrogating each stage to determine what dependencies exist, what could unexpectedly alter the output, and what impact those changes would have:
 
-For instance, the QC steps depend on threshold values - is this value configured? Has it ever been adjusted outside of a documented process?
+Use the interactive exercise below. Click or hover on some of the stages of Pathogen X to reveal the some questions the Pathogen X Bioinformatics team might ask of their pipeline:
 
-Let's hypothesise that the analysis pipeline depends on a reference database - if that database updates beyond your control tomorrow, would the pipeline's output change, and would anyone know? Does it impact the interpretation? The final report depends on the code that produced it - could you establish, today, exactly which version of that code ran on a sample analysed six months ago?
+.. container:: flip-card-container
 
-What if there was an SOP missing for a step in the pipeline, and a new team member performed that step differently than the previous team member? Would anyone know? Would it impact the final report?
+   .. container:: flip-card
 
-For an automated pipeline, what if a new version of a tool was released and automatically updated in the pipeline? Would anyone know? Would it impact the final report?
+      .. container:: flip-card-inner
 
-None of these questions have a fixed answer. What they point to is a way of readng your own sample journey 
+         .. container:: flip-card-front
 
-None of these questions has a fixed answer. What they point to is a way of reading your own sample journey: not just where a sample goes, but what it silently depends on at each stage, and how those dependencies could shift.
+            **QC &**
+            **Adapter Trimming**
+
+         .. container:: flip-card-back
+
+            Are QC parameters explicitly configured and locked? Have they ever been adjusted manually?
+
+   .. container:: flip-card
+
+      .. container:: flip-card-inner
+
+         .. container:: flip-card-front
+
+            **Variant**
+            **Profiling**
+
+         .. container:: flip-card-back
+
+            If an underlying reference database updated automatically tomorrow, would the output for the Pathogen X analysis pipeline change? Would anyone notice?
+
+   .. container:: flip-card
+
+      .. container:: flip-card-inner
+
+         .. container:: flip-card-front
+
+            **Entire Pathogen X Pipeline**
+
+         .. container:: flip-card-back
+
+            Could you establish precisely which release of Pathogen X ran on a sample processed six months ago? Would you be able to reanalyse the sample?
+
+   .. container:: flip-card
+
+      .. container:: flip-card-inner
+
+         .. container:: flip-card-front
+
+            **Sequence Receipt**
+
+         .. container:: flip-card-back
+
+            If a stage of the Pathogen X pipeline that is usually performed automatically suddenly had to be performed manually, and an SOP was missing for this step, and a new team member executed it differently, would the variance be caught? Would it have a detrimental impact on the final result?
+
+   .. container:: flip-card
+
+      .. container:: flip-card-inner
+
+         .. container:: flip-card-front
+
+            **Assembly**
+
+         .. container:: flip-card-back
+
+            If a third-party tool dependency updated unexpectedly at the Assembly stage, does it alter downstream results?
 
 
-The following worked example describes a bioinformatics analysis pipeline for "Pathogen X," from raw input to final output. "Laboratory X" receives a sequenced sample, performs quality control, then runs a bioinformatics analysis pipeline involving multiple steps to generate a report for interpretation. The report is then sent to the requesting clinician.
+None of these questions have a single static answer. Instead, they represent a method for reading your own sample journey: examining not just where data flows, but what it depends on at every step and how those dependencies could drift over time.
 
-.. TODO: Insert Figure 3 once diagram is complete — Pathogen X QC-plus-analysis pipeline walkthrough.
+-------------------------------------------------------------
+Mapping the Sample Journey for Case Studies
+-------------------------------------------------------------
 
-In this example, the bioinformatics sample journey is nested within the examination and post-examination stages of the overall examination process: the bioinformatics team is responsible for the analysis pipeline, and the laboratory team is responsible for the laboratory procedure. This division reflects how responsibility happens to fall in this example — it is not a claim about how bioinformatics and laboratory teams generally divide responsibility, and your own team's scope may differ.
+Use the categories below as templates to continue mapping sample journeys, dependencies, and risks across your own infrastructure:
 
-The dropdowns below offer two ways to continue this mapping exercise for your own bioinformatics processes.
+.. dropdown:: 🧪 Laboratory Procedure Hand-offs
 
+   Map the journey from initial sample receipt through to wet-lab processing. Focus on identifying hand-off risks at the boundaries between laboratory personnel and bioinformatics ingestion points.
 
-.. dropdown:: 🧪 Laboratory Procedure
+.. dropdown:: 🧬 Bioinformatics Quality Control (QC)
 
-   Map the laboratory procedure for processing samples from initial receipt to final reporting. This could include identifying risks at the pre-examination, examination, and post-examination stages. 
+   Map QC evaluation steps from raw sequence input to pipeline commitment. Focus on defining metrics (e.g., Q-scores, coverage thresholds, read trimming) and evaluating what happens when a sample falls in a grey area.
 
-.. dropdown:: 🧬 Bioinformatics QC Procedure
+.. dropdown:: 🧬 Bioinformatics Analysis Pipelines
 
-   Map the bioinformatics quality control procedures for processing samples from raw input to final output. This could include quality scores, read trimming, 
+   Map core pipelines (e.g., assembly, variant calling, annotation, phylogenetics). Identify high-consequence processes—such as pipelines directly informing clinical decision-making—which may require more stringent or frequent auditing than research pipelines.
 
+.. dropdown:: 🌌 Galaxy / Automated Workflows
 
+   Map automated workflow engines from data import through tool execution and reporting. Focus on tool versioning, step dependencies, and parameter locking across workflow runs.
 
+.. dropdown:: 💻 Code Maintenance & Review Procedures
 
+   Map code update, peer-review, and deployment procedures. Evaluate risks tied to repository access, testing protocols, version tagging, and production deployment boundaries.
 
+.. dropdown:: 🔧 Systems, Infrastructure & Databases
 
-
-
-
-.. dropdown:: 🧪 Laboratory Procedure
-
-   Map the laboratory procedure for processing samples from initial receipt to final reporting. This could include identifying risks at the pre-examination, examination, and post-examination stages. 
-
-.. dropdown:: 🧬 Bioinformatics QC Procedure
-
-   Map the bioinformatics quality control procedures for processing samples from raw input to final output. This could include quality scores, read trimming, 
-
-.. dropdown:: 🧬 Bioinformatics Analysis Pipeline
-
-   Map the bioinformatics analysis pipeline(s) for processing samples from raw input to final input. This could include identifying risks at each stage of the pipeline, such as assembly, variant calling, annotation, phylogenetic analysis, and reporting. 
-
-   You may identify that you have some pipelines that are more critical than others, and therefore require more frequent audits. For example, a pipeline that is used for clinical decision-making may require more frequent audits than a pipeline used for research purposes.
-
-.. dropdown:: 🌌 Galaxy Workflows
-
-   Map the Galaxy workflows for processing samples from raw input to final output. This could include identifying risks at each stage of the workflow, such as data import, quality control, analysis, and reporting.
-
-.. dropdown:: 💻 Code Update & Review Procedure
-
-   Map the code update and review procedures for processing samples from raw input to final output. This could include identifying risks at each stage of the code update and review process, such as version control, code review, testing, and deployment.
-
-.. dropdown:: 🔧 Systems, Hardware, and Databases
-
-   Map the systems, hardware, and databases used for processing samples from raw input to final output. This could include identifying risks at each stage of the process, such as data storage, backup, and recovery, as well as database management, versioning, and security.
-
+   Map physical and cloud infrastructure supporting the analysis. Evaluate risks related to database versioning, reference file integrity, compute environment stability, backups, and security permissions.
 
 ----------------
+
+Next Steps & Audit Planning
+-------------------------------------------------------------
+
+Mapping your sample journey clarifies where your risks lie. From here, jump directly to the topic that addresses your current gap:
+
+.. grid:: 1 2 3 3
+   :gutter: 3
+
+   .. grid-item-card:: 🗓️ Audit Schedule
+      :class-card: sd-shadow-sm sd-border-primary
+
+      Establish audit frequency, scope rotation, and timelines based on your risk profile.
+      
+      +++
+      :doc:`Go to Audit Schedule <schedule>`
+
+   .. grid-item-card:: 📋 Audit Checklists
+      :class-card: sd-shadow-sm sd-border-primary
+
+      Build or adapt checklist questions targeted at specific pipeline stages or hand-offs.
+      
+      +++
+      :doc:`Go to Checklists <checklist>`
+
+   .. grid-item-card:: 🔍 Select Audit Types
+      :class-card: sd-shadow-sm sd-border-primary
+
+      Determine whether a vertical, horizontal, or process audit fits your team's current setup.
+      
+      +++
+      :doc:`Explore Audit Types <audit_introduction>`
 
 
 .. raw:: html
 
    <script>
+     // Toggle flip state on click
+     document.addEventListener('DOMContentLoaded', () => {
+       document.querySelectorAll('.flip-card').forEach((card) => {
+         card.addEventListener('click', () => {
+           card.classList.toggle('is-flipped');
+         });
+       });
+     });
+
      // Auto-close other dropdowns when one opens
      document.querySelectorAll('details').forEach((el) => {
        el.addEventListener('toggle', function () {

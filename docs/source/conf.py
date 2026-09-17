@@ -53,7 +53,6 @@ html_logo = '_static/adviso_logo.png'
 
 html_theme_options = {
     'logo_only': True,  
-    'display_version': False,
     'collapse_navigation': False,
     "navigation_depth": 3,
 }

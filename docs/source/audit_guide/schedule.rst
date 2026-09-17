@@ -1,6 +1,7 @@
-==============================
+===============================
 Bioinformatics Audit Schedule
 ===============================
+
 Mapping the :doc:`/audit_guide/sample_journey` surfaces key risk areas within bioinformatics processes. This section explores how that mapping exercise can inform a practical, documented **schedule** to support your team as you evaluate how to prioritise bioinformatics processes for audit and how frequently to review them.
 
 Under ISO 15189:2022, internal audit scheduling considers the risk profile associated with a process, alongside historical audit findings, feedback, complaints or recent validations and verifications. 
@@ -27,9 +28,10 @@ The frequency bands outlined below offer one model of how a laboratory might ali
 
       **Audit Frequency:** Every 3 months
 
+------------------------------
 The Pathogen X Sample Journey 
 ------------------------------
-Consider the sample journey of a hypothetical pathogen, Pathogen X. The worked examples below illustrate how a team might translate risks identiifed from the Pathogen X sample journey into a practical audit **schedule**. 
+Consider the sample journey of a hypothetical pathogen, Pathogen X. The worked examples below illustrate how a team might translate risks identified from the Pathogen X sample journey into a practical audit **schedule**. 
 
 .. card:: 🧬 The Pathogen X Analysis Pipeline
    :class-header: sd-bg-danger sd-text-white sd-font-weight-bold
