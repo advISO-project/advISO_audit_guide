@@ -1,10 +1,8 @@
-=========
+===============================
 Bioinformatics Audit Checklist
-=========
+===============================
 
 An audit checklist is a structured list of items used to guide the audit process and ensure that all relevant areas of a process are covered. You may wish to structure these items into themes
-
-It is generally advised that only those who are competent and have training in performing audits will do so.
 
 Wet lab checklist
 ------------------
@@ -20,7 +18,8 @@ Wet lab checklist
 Often following a single SOP or procedure
 
 Bioinformatics checklist
-----------------------
+--------------------------
+
 Map this from the risks identified in the sample journey, and the processes that are used to mitigate those risks. The checklist items below are suggestions, and you may wish to add or remove items based on your own risk assessment.
 
 - Pre examination
