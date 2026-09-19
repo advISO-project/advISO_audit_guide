@@ -121,13 +121,38 @@ Use the interactive exercise below. Click or hover on some of the stages of Path
 
 None of these questions have a single static answer. Instead, they represent a method for reading your own sample journey: examining not just where data flows, but what it depends on at every step and how those dependencies could drift over time.
 
+Grouping these risks
+-------------------------------------------------------------
+ 
+Read across the questions above, the risks for the Pathogen X pipeline fall into a handful of categories:
+ 
+- **Documentation** 
+   Is there a written record of how a pipeline or workflow should be performed, and was it followed? 
+- **Pipeline validation**
+   Was this pipeline shown to produce biologically meaningful results before it was ever used on a real sample?
+- **Personnel**
+   Would a new team member know how to troubleshoot a pipeline?
+- **Pipeline functioning**
+   Did this specific run actually execute and produce the outputs it was supposed to?
+- **Software**
+   Which version of each tool produced a given result, and would an unannounced update change it?
+- **Databases**
+   Which version of a reference database was used, and would it change without anyone noticing?
+- **Hardware (equipment)**
+   Is the compute this pipeline depends on reliable, and what happens if it is not?
+- **Quality assurance**
+   Are QC parameters fixed and reviewed, or open to manual adjustment?
+ 
+These categories are not arbitrary — they are the same ones used to structure :doc:`the audit schedule <schedule>` and :doc:`the checklist(s) <checklist>` later in this guide.
+
+Ultimately, it is important to document what you do.
 -------------------------------------------------------------
 Mapping the Sample Journey for Case Studies
 -------------------------------------------------------------
 
 Use the categories below as templates to continue mapping sample journeys, dependencies, and risks across your own infrastructure:
 
-.. dropdown:: 🧪 Laboratory Procedure Hand-offs
+.. dropdown:: 🧪 Laboratory Procedure
 
    Map the journey from initial sample receipt through to wet-lab processing. Focus on identifying hand-off risks at the boundaries between laboratory personnel and bioinformatics ingestion points.
 
