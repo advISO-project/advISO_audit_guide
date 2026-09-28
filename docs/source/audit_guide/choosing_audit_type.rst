@@ -4,7 +4,7 @@ Choosing an Audit Type
 
 Internal audits can be structured in different ways depending on what works best for your bioinformatics operational context. The three approaches are not mutually exclusive, and a well-designed audit programme will usually draw on all three at different times, according to the specific needs of the laboratory and the processes being audited.
 
-..dropdown:: ↕️ Vertical audit
+.. dropdown:: ↕️ Vertical audit
     A vertical audit follows a single sample or dataset through every stage of a process, checking that each stage is compliant before moving on to the next. Vertical audits are particularly useful for demonstrating end-to-end traceability, identifying opportunities for improvement, and uncovering hidden risks, which auditors and accreditation bodies will want to see evidenced.
 
     For bioinformatics, a vertical audit is suggested for tracing a single sample or dataset from the first input (e.g. raw sequencing data) through the bioinformatics process to the final result or report. 
@@ -32,6 +32,7 @@ responsibility sits within the wider examination process, and where the
 risks are within it.
 
 .. raw:: html
+
    <script>
      // Auto-close other dropdowns when one opens
      document.querySelectorAll('details').forEach((el) => {
