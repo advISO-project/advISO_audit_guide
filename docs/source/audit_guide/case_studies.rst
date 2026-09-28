@@ -4,11 +4,7 @@
 Case Studies
 ============
 
-Throughout this guide we make use of a series of case studies to illustrate how the internal audit structure can be applied in practice:
-
-.. dropdown:: 🧪 Laboratory Procedure
-
-   An audit evaluating the procedure for preparing Illumina sequencing libraries from DNA.
+Throughout this guide we make use of a series of case studies to illustrate how the internal audit structure can be applied in practice to bioinformatics processes:
 
 .. dropdown:: 🧬 Bioinformatics Analysis Pipeline
 
@@ -16,8 +12,12 @@ Throughout this guide we make use of a series of case studies to illustrate how 
 
 .. dropdown:: 🌌 Galaxy Workflows
 
-   An audit evaluating the procedure for Galaxy workflow development, execution, and management.
+   An audit evaluating the Galaxy workflow and management for analysing sequencing reads to produce a report for clinical interpretation.
 
+.. dropdown:: 🧪 Laboratory Procedure
+
+   An audit evaluating the procedure for preparing Illumina sequencing libraries from DNA.
+  
 
 All of these case studies are loosely based on real procedures
 used within ISO accredited laboratories.
