@@ -6,7 +6,7 @@ Mapping the :doc:`/audit_guide/sample_journey` surfaces key risk areas within bi
 
 Under ISO 15189:2022, internal audit scheduling considers the risk profile associated with a process, alongside historical audit findings, feedback, complaints or recent validations and verifications. 
 
-While wet laboratory assays and instruments generally change on more predictable cycles, bioinformatics software and pipelines often evolve rapidly, meaning risk profiles can shit more dynamically. A more adaptable approach to auditing for bioinformatics allows teams to adjust audit scope as processes change, while still maintaining a consistent schedule for review. Some laboratories find it helpful to maintain a dedicated audit schedule for bioinformatics processes, while others integrate bioinformatics into a broader laboratory audit schedule. 
+While wet laboratory assays and instruments generally change on more predictable cycles, bioinformatics software and pipelines often evolve rapidly, meaning risk profiles can shift more dynamically. A more adaptable approach to auditing for bioinformatics allows teams to adjust audit scope as processes change, while still maintaining a consistent schedule for review. Some laboratories find it helpful to maintain a dedicated audit schedule for bioinformatics processes, while others integrate bioinformatics into a broader laboratory audit schedule. 
 
 The frequency bands outlined below offer one model of how a laboratory might align bioinformatics risk levels with audit frequency. They are intended as a practical reference that teams can adapt based on their own operational context. 
 
