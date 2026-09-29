@@ -31,18 +31,45 @@ Root-cause analysis
 --------------------
 Root-cause analysis identifies the reason why the non-conformity occurred, not just what happened. A useful rule of thumb for root-cause analysis to ask “why” about 3-5 times, backtracking until you reach something you can act upon. 
 A root-cause analysis has been outlined for the non-conformity we identified for Pathogen X. Click on the cards below to reveal each step of the root-cause analysis.
-1.	Why was there not an SOP outlining the bioinformatics process?
-a.	There was an SOP, but it was accidentally deleted.
-2.	Why was the SOP accidentally deleted?
-a.	A member of staff was tidying files in a directory, and it was accidentally moved to the Recycle Bin.
-3.	Why was it permanently lost, rather than restored from the Recycle Bin or a backup?
-a.	The Recycle Bin had already been emptied, and there was no separate backup or version-controlled copy of the SOP.
-4.	Why was there no backup or version-controlled copy of a controlled document?
-a.	Document control for the bioinformatics scope relied on a single working copy in a shared drive, with no defined backup or version history requirement.
-5.	Why did document control for this scope not include a backup or version history requirement?
-a.	This had not been considered when the bioinformatics process was brought into the quality system.
 
-The root cause is therefore a gap in document control practice for digital, bioinformatics-specific SOPs, not necessarily an individual's mistake in tidying files. This matters, because the corrective action should address a gap directly. 
+.. grid:: 1 1 1 1
+   :gutter: 2
+
+   .. grid-item-card:: Step 1: SOP Availability
+      :class-card: sd-border-primary
+
+      **Why?** Why was there not an SOP outlining the bioinformatics process?
+      ^^^
+      **Finding:** There was an SOP, but it was accidentally deleted.
+
+   .. grid-item-card:: Step 2: File Deletion
+      :class-card: sd-border-primary
+
+      **Why?** Why was the SOP accidentally deleted?
+      ^^^
+      **Finding:** A staff member was tidying directory files and moved it to the Recycle Bin.
+
+   .. grid-item-card:: Step 3: Recovery Failure
+      :class-card: sd-border-primary
+
+      **Why?** Why was it permanently lost rather than restored?
+      ^^^
+      **Finding:** The Recycle Bin was already emptied, and no backup copy existed.
+
+   .. grid-item-card:: Step 4: Governance Gap
+      :class-card: sd-border-warning
+
+      **Why?** Why was there no backup or version-controlled copy?
+      ^^^
+      **Finding:** Document control relied on a single working copy on a shared drive.
+
+   .. grid-item-card:: Step 5: Root Cause
+      :class-card: sd-border-danger
+
+      **Why?** Why did document control not include digital backups for this scope?
+      ^^^
+      **Finding:** This scope was overlooked when bioinformatics was integrated into the QMS.
+
 
 Correction
 -----------

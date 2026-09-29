@@ -23,6 +23,10 @@ Looking beyond the individual audit is important for identifying whether similar
 
 It is also worth noting that the outcome reaches the people who actually run the process day to day, not only those responsible for the quality system. Bioinformaticians are subject matter experts and are well-placed to sustain a change or notice if it isn't working. 
 
+Identifying opportunities for improvement
+------------------------------------------
+
+
 Final thoughts
 ---------------
 You may need to act based on the results of the audit itself. If you find you are missing an SOP, or it needs aligning to make it more relevant for bioinformatics, you may find `this advISO SOP guide useful <https://adviso-sop-guide.readthedocs.io/en/latest/>`_. In the same vein, a `guide to validation and verification documents <https://adviso-validation-guide.readthedocs.io/en/latest/>`_ and a `guide to competency frameworks for bioinformatics <https://adviso-competency-guide.readthedocs.io/en/latest/>`_ are also available in this advISO series.
