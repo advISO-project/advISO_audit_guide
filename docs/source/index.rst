@@ -58,7 +58,6 @@ Find out more about the `advISO Bioinformatics accreditation in a box project <h
    audit_guide/audit_introduction
    audit_guide/choosing_audit_type
    audit_guide/sample_journey
-   audit_guide/risk_assessment
    audit_guide/schedule
    audit_guide/checklist
    audit_guide/performing_audits
