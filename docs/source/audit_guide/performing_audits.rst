@@ -15,11 +15,17 @@ You can perform an audit on paper or a local spreadsheet or in an electronic qua
 Aim to minimise disruption to service by giving notice to those responsible for the bioinformatics scope and any other relevant parties, e.g. quality management teams The audit schedule should serve as anchor to minimise disruption to service. 
 
 To perform an audit:
+
 *	Randomly select a recent sample from a run which has been processed in the audit schedule  
+
 *	Go through each question in the checklist. This should be essentially like following the sample journey for the bioinformatics scope.
+
 *	Gather evidence to answer all the questions in the checklist. The evidence could be a range of items. A screenshot, an email, a spreadsheet, a URL. Just ensure that whoever is reviewing the audit later is also able to access this evidence, so they can verify it. 
+
 *	Provide reasoning alongside the evidence, using "Yes/No" for the observation, and an explanation
+
 *	For each question, decide whether the evidence and reasoning of the observation mean the process is compliant, non-compliant, or N/A with what you expected within the bioinformatics scope.
+
 *	For example, if a checklist question asks: For each bioinformatics tool, is the version number logged and static, and there is no evidence to confirm there is, and in fact, the version number is different for every run for a given bioinformatics workflow, then you would mark this as Non-Compliant.
 
 * Ensure that the audit is run through within a reasonable timeframe which is balanced with any planned disruption to service (including staff time).
