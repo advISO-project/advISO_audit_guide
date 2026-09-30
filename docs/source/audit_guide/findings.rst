@@ -30,46 +30,91 @@ Not every non-conformity will need this step. In our Pathogen X example, the mis
 Root-cause analysis
 --------------------
 Root-cause analysis identifies the reason why the non-conformity occurred, not just what happened. A useful rule of thumb for root-cause analysis to ask “why” about 3-5 times, backtracking until you reach something you can act upon. 
-A root-cause analysis has been outlined for the non-conformity we identified for Pathogen X. Click on the cards below to reveal each step of the root-cause analysis.
 
-.. grid:: 1 1 1 1
-   :gutter: 2
+A root-cause analysis for the non-conformity we identified for Pathogen X is outlined below. 
 
-   .. grid-item-card:: Step 1: SOP Availability
-      :class-card: sd-border-primary
+.. raw:: html
 
-      **Why?** Why was there not an SOP outlining the bioinformatics process?
-      ^^^
-      **Finding:** There was an SOP, but it was accidentally deleted.
+   <!-- Problem Statement / Audit Finding Banner -->
+   <div style="background-color: #fef4f0; border-left: 6px solid #D97C5D; padding: 16px 20px; border-radius: 6px; margin-top: 20px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+     <p style="margin: 0 0 4px 0; color: #D97C5D; font-size: 0.85em; font-weight: bold; letter-spacing: 0.05em; text-transform: uppercase;">
+       📌 Problem Statement (Audit Finding)
+     </p>
+     <p style="margin: 0; font-size: 1.05em; color: #2c3e50; font-weight: 600;">
+       During an audit, the required Bioinformatics Standard Operating Procedure (SOP) was missing from the designated repository.
+     </p>
+   </div>
 
-   .. grid-item-card:: Step 2: File Deletion
-      :class-card: sd-border-primary
+   <p style="margin-bottom: 15px;"><em>Click or tap any card below to flip it and trace the investigation down to the root cause:</em></p>
 
-      **Why?** Why was the SOP accidentally deleted?
-      ^^^
-      **Finding:** A staff member was tidying directory files and moved it to the Recycle Bin.
+   <div class="flip-card-container">
 
-   .. grid-item-card:: Step 3: Recovery Failure
-      :class-card: sd-border-primary
+     <!-- Card 1 -->
+     <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           <p style="font-size: 0.8em; opacity: 0.9; margin-bottom: 8px;">WHY #1</p>
+           <p>🔍 Where did the required SOP go?</p>
+         </div>
+         <div class="flip-card-back">
+           <p><strong>Permanently Deleted:</strong> A staff member moved the file to the Recycle Bin while organizing folders, and it was emptied before anyone noticed.</p>
+         </div>
+       </div>
+     </div>
 
-      **Why?** Why was it permanently lost rather than restored?
-      ^^^
-      **Finding:** The Recycle Bin was already emptied, and no backup copy existed.
+     <!-- Card 2 -->
+     <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           <p style="font-size: 0.8em; opacity: 0.9; margin-bottom: 8px;">WHY #2</p>
+           <p>❓ Why could anyone delete it?</p>
+         </div>
+         <div class="flip-card-back">
+           <p><strong>Unrestricted Folder:</strong> The document was stored in a regular shared folder where every employee had edit and delete permissions.</p>
+         </div>
+       </div>
+     </div>
 
-   .. grid-item-card:: Step 4: Governance Gap
-      :class-card: sd-border-warning
+     <!-- Card 3 -->
+     <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           <p style="font-size: 0.8em; opacity: 0.9; margin-bottom: 8px;">WHY #3</p>
+           <p>❓ Why was it unprotected?</p>
+         </div>
+         <div class="flip-card-back">
+           <p><strong>Safety Rules Missed:</strong> Standard document controls—like delete protection and daily automated backups—were never configured for this drive.</p>
+         </div>
+       </div>
+     </div>
 
-      **Why?** Why was there no backup or version-controlled copy?
-      ^^^
-      **Finding:** Document control relied on a single working copy on a shared drive.
+     <!-- Card 4 -->
+     <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           <p style="font-size: 0.8em; opacity: 0.9; margin-bottom: 8px;">WHY #4</p>
+           <p>❓ Why were safety rules missed?</p>
+         </div>
+         <div class="flip-card-back">
+           <p><strong>Scope Gap:</strong> When bioinformatics was added to the quality framework, nobody completed the IT checklist to secure their digital workspace.</p>
+         </div>
+       </div>
+     </div>
 
-   .. grid-item-card:: Step 5: Root Cause
-      :class-card: sd-border-danger
+     <!-- Card 5 (Root Cause using your accent color #D97C5D) -->
+     <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
+       <div class="flip-card-inner">
+         <div class="flip-card-front" style="background-color: #D97C5D; border-color: #D97C5D;">
+           <p style="font-size: 0.8em; opacity: 0.9; margin-bottom: 8px;">ROOT CAUSE</p>
+           <p>🎯 What is the systemic issue?</p>
+         </div>
+         <div class="flip-card-back" style="border-color: #D97C5D;">
+           <p><strong>Incomplete Onboarding Protocol:</strong> The process for bringing new teams into the company system did not require securing their digital folders or backups.</p>
+         </div>
+       </div>
+     </div>
 
-      **Why?** Why did document control not include digital backups for this scope?
-      ^^^
-      **Finding:** This scope was overlooked when bioinformatics was integrated into the QMS.
-
+   </div>
 
 Correction
 -----------
