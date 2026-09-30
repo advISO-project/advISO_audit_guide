@@ -1,16 +1,76 @@
-Resolving audit findings
+Resolving Audit Findings
 ========================
 Let's say that when you performed the most recent audit for Pathogen X, you discovered that there was no evidence that there is an SOP for detailing how the bioinformatics method worked, despite there being an expectation that one existed. 
 
 This would have been recorded as Non-Compliant. Any non-conformities like this should be corrected without undue delay, following a process like the one outlined below to ensure the correction happens:
 
-[figure with flow diagram of impact assessment - Root-cause analysis - Correction - Effectiveness check - Lessons learned - Closing the audit ]
+.. raw:: html
+
+   <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; margin: 30px auto; max-width: 1000px;">
+
+     <!-- Step 1 -->
+     <div style="background: #ffffff; border: 2px solid #648FFF; border-radius: 10px; padding: 12px 14px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.06); flex: 1 1 130px; max-width: 160px; min-width: 120px; box-sizing: border-box;">
+       <p style="margin: 0; font-size: 0.88em; font-weight: 600; color: #2c3e50;">⚠️ Impact Assessment</p>
+     </div>
+
+     <!-- Arrow 1 -> 2 -->
+     <div style="color: #648FFF; display: flex; justify-content: center; align-items: center; flex-shrink: 0;">
+       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+     </div>
+
+     <!-- Step 2 -->
+     <div style="background: #ffffff; border: 2px solid #648FFF; border-radius: 10px; padding: 12px 14px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.06); flex: 1 1 130px; max-width: 160px; min-width: 120px; box-sizing: border-box;">
+       <p style="margin: 0; font-size: 0.88em; font-weight: 600; color: #2c3e50;">🔍 Root-Cause Analysis (e.g. 5-Whys)</p>
+     </div>
+
+     <!-- Arrow 2 -> 3 -->
+     <div style="color: #648FFF; display: flex; justify-content: center; align-items: center; flex-shrink: 0;">
+       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+     </div>
+
+     <!-- Step 3 -->
+     <div style="background: #ffffff; border: 2px solid #648FFF; border-radius: 10px; padding: 12px 14px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.06); flex: 1 1 130px; max-width: 160px; min-width: 120px; box-sizing: border-box;">
+       <p style="margin: 0; font-size: 0.88em; font-weight: 600; color: #2c3e50;">🛠️ Corrective Action</p>
+     </div>
+
+     <!-- Arrow 3 -> 4 -->
+     <div style="color: #648FFF; display: flex; justify-content: center; align-items: center; flex-shrink: 0;">
+       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+     </div>
+
+     <!-- Step 4 -->
+     <div style="background: #ffffff; border: 2px solid #648FFF; border-radius: 10px; padding: 12px 14px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.06); flex: 1 1 130px; max-width: 160px; min-width: 120px; box-sizing: border-box;">
+       <p style="margin: 0; font-size: 0.88em; font-weight: 600; color: #2c3e50;">⏱️ Effectiveness Check</p>
+     </div>
+
+     <!-- Arrow 4 -> 5 -->
+     <div style="color: #648FFF; display: flex; justify-content: center; align-items: center; flex-shrink: 0;">
+       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+     </div>
+
+     <!-- Step 5 -->
+     <div style="background: #ffffff; border: 2px solid #648FFF; border-radius: 10px; padding: 12px 14px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.06); flex: 1 1 130px; max-width: 160px; min-width: 120px; box-sizing: border-box;">
+       <p style="margin: 0; font-size: 0.88em; font-weight: 600; color: #2c3e50;">📚 Lessons Learned</p>
+     </div>
+
+     <!-- Arrow 5 -> 6 (Transition to Audit Close) -->
+     <div style="color: #D97C5D; display: flex; justify-content: center; align-items: center; flex-shrink: 0;">
+       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+     </div>
+
+     <!-- Step 6 (Final Closing Step - Terracotta Theme) -->
+     <div style="background: #fef4f0; border: 2px solid #D97C5D; border-radius: 10px; padding: 12px 14px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.06); flex: 1 1 130px; max-width: 160px; min-width: 120px; box-sizing: border-box;">
+       <p style="margin: 0; font-size: 0.88em; font-weight: 600; color: #2c3e50;">🏁 Closing the Audit</p>
+     </div>
+
+   </div>
 
 
 Impact assessment
 ------------------
 Firstly, think through the impact of this non-conformity to assess its severity. Questions worth asking yourself might include:
-*	Did this mean a step in the bioinformatics pipeline was performed incorrectly, or without a documented basis?
+
+* Did this mean a step in the bioinformatics pipeline was performed incorrectly, or without a documented basis?
 *	Could that have had a detrimental impact on a patient?
 *	Was the missing information available somewhere else instead?
 *	Does this need to be escalated or reported elsewhere?
@@ -23,9 +83,9 @@ Record some details about the non-conformity, including the discovery date, a se
 
 Then, you might want to think through the impact and origin of the non-conformity. Impact and origin are two different lenses on the same non-conformity, and both are worth thinking through, in whatever language fits your operational context. 
 
-Impact is about consequence: what could go wrong, or has gone wrong, because of this? It might tough on patient safety, data protection, service continuity, or how effectively your quality management system is working as a whole. 
+**Impact** is about consequence: what could go wrong, or has gone wrong, because of this? It might tough on patient safety, data protection, service continuity, or how effectively your quality management system is working as a whole. 
 
-Meanwhile, origin is about where in your bioinformatics sample journey did this arise? It might sit with documentation, equipment integrity and maintenance, personnel, data storage and archival, etc. Naming this helps you (and whoever reviews the audit later), spot if the same kind of issue keeps recurring from the same source. 
+Meanwhile, **origin** is about where in your bioinformatics sample journey did this arise? It might sit with documentation, equipment integrity and maintenance, personnel, data storage and archival, etc. Naming this helps you (and whoever reviews the audit later), spot if the same kind of issue keeps recurring from the same source. 
 
 Immediate action
 ^^^^^^^^^^^^^^^^^
@@ -44,7 +104,7 @@ A root-cause analysis for the non-conformity we identified for Pathogen X is out
    <!-- Problem Statement / Audit Finding Banner -->
    <div style="background-color: #fef4f0; border-left: 6px solid #D97C5D; padding: 16px 20px; border-radius: 6px; margin: 20px auto 10px auto; max-width: 450px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); box-sizing: border-box;">
      <p style="margin: 0 0 4px 0; color: #D97C5D; font-size: 0.85em; font-weight: bold; letter-spacing: 0.05em; text-transform: uppercase;">
-       📌 Problem Statement (Audit Finding)
+       🤔 Problem Statement (Audit Finding)
      </p>
      <p style="margin: 0; font-size: 1.05em; color: #2c3e50; font-weight: 600;">
        During an audit, the required Bioinformatics SOP was missing from the designated repository.
