@@ -4,7 +4,7 @@ sphinx-rtd-theme>=2.0.0
 sphinx-design==0.7.0
 
 # Document Utilities & Linters
-docutils>=0.18,<0.21
+docutils
 doc8
 restructuredtext_lint
 
