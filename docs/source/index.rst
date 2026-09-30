@@ -11,12 +11,12 @@ This guide is intended to support bioinformatics teams in diagnostic laboratorie
 
 Through practical :ref:`case studies <case_studies>` and worked examples, this guide applies the internal audit process directly to bioinformatics processes. Some readers will already be familiar with this internal audit process from accrediting wet laboratory processes.
 
+---------------------------------------------------------------------------------------
+
 Glossary of ISO terms
 ------------------------------
 
 As part of this guide, a glossary of ISO terms is provided, offering definitions and bioinformatics-specific translations to facilitate clear communication and shared understanding between wet lab and dry lab teams. It is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise.
-
----------------------------------------------------------------------------------------
 
 .. image:: _static/glossary_button_audit.png
    :target: https://adviso-audit-guide.readthedocs.io/en/latest/source/glossary.html
