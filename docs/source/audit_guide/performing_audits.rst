@@ -32,6 +32,6 @@ To perform an audit:
 
 Once all questions have been answered with a decision of Compliant, Non-Compliant, or Not Applicable, you have a completed audit record ready to feed into addressing any findings.
 
-.. note:: The checklist should be designed to fit your bioinformatics scope. An audit is not designed to catch you out; it checks and provides a record of whether what you expect to happen is what actually happens. Any uncovered issue is a sign your audit is doing exactly what it is designed for.
+.. tip:: The checklist should be designed to fit your bioinformatics scope. An audit is not designed to catch you out; it checks and provides a record of whether what you expect to happen is what actually happens. Any uncovered issue is a sign your audit is doing exactly what it is designed for.
 
 

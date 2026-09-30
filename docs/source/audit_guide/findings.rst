@@ -1,6 +1,7 @@
 Resolving audit findings
 ========================
 Let's say that when you performed the most recent audit for Pathogen X, you discovered that there was no evidence that there is an SOP for detailing how the bioinformatics method worked, despite there being an expectation that one existed. 
+
 This would have been recorded as Non-Compliant. Any non-conformities like this should be corrected without undue delay, following a process like the one outlined below to ensure the correction happens:
 
 [figure with flow diagram of impact assessment - Root-cause analysis - Correction - Effectiveness check - Lessons learned - Closing the audit ]
@@ -15,11 +16,16 @@ Firstly, think through the impact of this non-conformity to assess its severity.
 *	Does this need to be escalated or reported elsewhere?
 *	For how long has this non-conformity existed?
 
-.. danger::
+.. warning::
     If there is any possibility that a non-conformity identified through an interal audit could have detrimentally impacted patient results, it is strongly advised to escalate it immediately through the reporting pathway that is most appropriate for your organisation. This guide cannot tell you what that pathway is; make sure you are aware of your own policy in advance of needed it. 
 
 Record some details about the non-conformity, including the discovery date, a severity level, and where it took place. Severity might range from a Recommendation (an observation or suggestion for improvement, where nothing has actually failed), through to a scale like Minor, Major, or Critical, depending on how serious the consequence is and how directly it touches patient results.
-Then, you might want to think through the impact and origin of the non-conformity. Impact and origin are two different lenses on the same non-conformity, and both are worth thinking through, in whatever language fits your operational context. Impact is about consequence: what could go wrong, or has gone wrong, because of this? It might tough on patient safety, data protection, service continuity, or how effectively your quality management system is working as a whole. Meanwhile, origin is about where in your bioinformatics sample journey did this arise? It might sit with documentation, equipment integrity and maintenance, personnel, data storage and archival, etc. Naming this helps you (and whoever reviews the audit later), spot if the same kind of issue keeps recurring from the same source. 
+
+Then, you might want to think through the impact and origin of the non-conformity. Impact and origin are two different lenses on the same non-conformity, and both are worth thinking through, in whatever language fits your operational context. 
+
+Impact is about consequence: what could go wrong, or has gone wrong, because of this? It might tough on patient safety, data protection, service continuity, or how effectively your quality management system is working as a whole. 
+
+Meanwhile, origin is about where in your bioinformatics sample journey did this arise? It might sit with documentation, equipment integrity and maintenance, personnel, data storage and archival, etc. Naming this helps you (and whoever reviews the audit later), spot if the same kind of issue keeps recurring from the same source. 
 
 Immediate action
 ^^^^^^^^^^^^^^^^^
@@ -36,18 +42,24 @@ A root-cause analysis for the non-conformity we identified for Pathogen X is out
 .. raw:: html
 
    <!-- Problem Statement / Audit Finding Banner -->
-   <div style="background-color: #fef4f0; border-left: 6px solid #D97C5D; padding: 16px 20px; border-radius: 6px; margin-top: 20px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+   <div style="background-color: #fef4f0; border-left: 6px solid #D97C5D; padding: 16px 20px; border-radius: 6px; margin: 20px auto 10px auto; max-width: 450px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); box-sizing: border-box;">
      <p style="margin: 0 0 4px 0; color: #D97C5D; font-size: 0.85em; font-weight: bold; letter-spacing: 0.05em; text-transform: uppercase;">
        📌 Problem Statement (Audit Finding)
      </p>
      <p style="margin: 0; font-size: 1.05em; color: #2c3e50; font-weight: 600;">
-       During an audit, the required Bioinformatics Standard Operating Procedure (SOP) was missing from the designated repository.
+       During an audit, the required Bioinformatics SOP was missing from the designated repository.
      </p>
    </div>
 
-   <p style="margin-bottom: 15px;"><em>Click or tap any card below to flip it and trace the investigation down to the root cause:</em></p>
+   <p style="text-align: center; margin-bottom: 20px;"><em>Click or tap any card below to flip it and trace the investigation down to the root cause:</em></p>
 
-   <div class="flip-card-container">
+   <!-- Vertical Flow Container -->
+   <div class="flip-card-container" style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+
+     <!-- Arrow from Banner to Card 1 -->
+     <div style="display: flex; justify-content: center; align-items: center; height: 36px; color: #D97C5D;">
+       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+     </div>
 
      <!-- Card 1 -->
      <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
@@ -60,6 +72,11 @@ A root-cause analysis for the non-conformity we identified for Pathogen X is out
            <p><strong>Permanently Deleted:</strong> A staff member moved the file to the Recycle Bin while organizing folders, and it was emptied before anyone noticed.</p>
          </div>
        </div>
+     </div>
+
+     <!-- Arrow 1 -> 2 -->
+     <div style="display: flex; justify-content: center; align-items: center; height: 36px; color: #648FFF;">
+       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
      </div>
 
      <!-- Card 2 -->
@@ -75,6 +92,11 @@ A root-cause analysis for the non-conformity we identified for Pathogen X is out
        </div>
      </div>
 
+     <!-- Arrow 2 -> 3 -->
+     <div style="display: flex; justify-content: center; align-items: center; height: 36px; color: #648FFF;">
+       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+     </div>
+
      <!-- Card 3 -->
      <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
        <div class="flip-card-inner">
@@ -86,6 +108,11 @@ A root-cause analysis for the non-conformity we identified for Pathogen X is out
            <p><strong>Safety Rules Missed:</strong> Standard document controls—like delete protection and daily automated backups—were never configured for this drive.</p>
          </div>
        </div>
+     </div>
+
+     <!-- Arrow 3 -> 4 -->
+     <div style="display: flex; justify-content: center; align-items: center; height: 36px; color: #648FFF;">
+       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
      </div>
 
      <!-- Card 4 -->
@@ -101,7 +128,12 @@ A root-cause analysis for the non-conformity we identified for Pathogen X is out
        </div>
      </div>
 
-     <!-- Card 5 (Root Cause using your accent color #D97C5D) -->
+     <!-- Arrow 4 -> 5 (Transition to Root Cause) -->
+     <div style="display: flex; justify-content: center; align-items: center; height: 36px; color: #D97C5D;">
+       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+     </div>
+
+     <!-- Card 5 (Root Cause using accent color #D97C5D) -->
      <div class="flip-card" onclick="this.classList.toggle('is-flipped')">
        <div class="flip-card-inner">
          <div class="flip-card-front" style="background-color: #D97C5D; border-color: #D97C5D;">

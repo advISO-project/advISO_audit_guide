@@ -29,12 +29,13 @@ However, it is not immediately clear how each of these sections would translate 
 
 Rather than forcing bioinformatics checklists into headers that are not best designed for them, then, it is advised to work through each of these headers and ask for what it is assessing, decide whether that function exists in your own bioinformatics process, and if not, adapting it to be compatible with your bioinformatics scope. 
 
-.. note:: 
+.. tip::
     Like a wet laboratory procedure, the bioinformatics equivalent of an audit checklist should be informed by the risks identified in the :doc:`/audit_guide/sample_journey`.
 
 The checklist items for a bioinformatics equivalent are suggestions, and you may wish to add or remove items based on your own sample journey. You may find as you work through your own bioinformatics sample journey, you begin to sort risks into general categories that can be used to inform the checklist section headers. From there, you can start to think about questions which address checking those risks.
 
 .. dropdown:: Pathogen X Case Study
+    
     1. **Pre-examination**: whether the sample and its context are correctly identified and traceable before analysis begins
         a. **Example questions**
             i. Have you reviewed the previous audit to check for emerging patterns or trends?
