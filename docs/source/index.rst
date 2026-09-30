@@ -11,44 +11,63 @@ This guide is intended to support bioinformatics teams in diagnostic laboratorie
 
 Through practical :ref:`case studies <case_studies>` and worked examples, this guide applies the internal audit process directly to bioinformatics processes. Some readers will already be familiar with this internal audit process from accrediting wet laboratory processes.
 
-A :ref:`Glossary of ISO terms <glossary>` is also provided, translating ISO 15189:2022 termninology and its bioinformatics equivalents.
+---------------------------------------------------------------------------------------
+
+Glossary of ISO terms
+------------------------------
+
+As part of this guide, a glossary of ISO terms is provided, offering definitions and bioinformatics-specific translations to facilitate clear communication and shared understanding between wet lab and dry lab teams. It is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise.
+
+.. image:: _static/glossary_button_audit.png
+   :target: https://adviso-audit-guide.readthedocs.io/en/latest/audit_guide/glossary.html
+   :alt: advISO Glossary of ISO Terms
+   :width: 70%
+   :align: center
+   :class: guide-button
+
+---------------------------------------------------------------------------------------
 
 Other guides in this series
 -----------------------------
-This guide forms part of the advISO series of practical resources for laboratories working toward ISO accreditation:
 
-.. grid:: 1
-   :gutter: 2
+This guide forms part of the advISO series of practical how-to resources for laboratories working toward ISO accreditation:
 
-   .. grid-item-card:: SOP writing
-      :class-card: sd-bg-light sd-text-dark
-      :link: https://adviso-sop-guide.readthedocs.io/en/latest/
-      :link-type: url
-      :text-align: center
+.. grid:: 3
+   :gutter: 3
 
-      A practical guide to writing SOPs for clinical bioinformatics.
+   .. grid-item::
 
-   .. grid-item-card:: Competency assessment
-      :class-card: sd-bg-light sd-text-dark
-      :link: https://adviso-competency-guide.readthedocs.io/en/latest/
-      :link-type: url
-      :text-align: center
+      .. image:: _static/sop_guide_button.png
+         :target: https://adviso-sop-guide.readthedocs.io/en/latest/
+         :alt: advISO SOP Guide
+         :class: guide-button
 
-      Guidance for assessing competency of staff using competency frameworks.
+   .. grid-item::
 
-   .. grid-item-card:: Performing bioinformatics validations and verifications
-      :class-card: sd-bg-light sd-text-dark
-      :link: https://adviso-validation-guide.readthedocs.io/en/latest/
-      :link-type: url
-      :text-align: center
+      .. image:: _static/competency_guide_button.png
+         :target: https://adviso-competency-guide.readthedocs.io/en/latest/
+         :alt: advISO Competency Guide
+         :class: guide-button
 
-      Guidance on planning and conducting bioinformatics validations and verifications.
+   .. grid-item::
 
--------------------
+      .. image:: _static/validation_guide_button.png
+         :target: https://adviso-validation-guide.readthedocs.io/en/latest/
+         :alt: advISO Validation Guide
+         :class: guide-button
 
-This documentation was developed as part of the Wellcome Trust-funded project: “ISO in a Box: Developing a framework to enable the development of end-to-end genomics-based ISO 15189 and ISO 17025 accredited services, anywhere in the world” (Grant Reference: 228162/Z/23/Z)
+---------------------------------------------------------------------------------------
+
+Project partners
+-----------------
+
+This guide has been produced as part of the Wellcome Trust-funded project: *ISO in a Box: Developing a framework to enable the development of end-to-end genomics-based ISO 15189 and ISO 17025 accredited services, anywhere in the world* (Grant Reference: 228162/Z/23/Z). The project is led by Cardiff University, in collaboration with Public Health Wales, Wellcome Sanger Institute, South African National Bioinformatics Institute, and University of the Western Cape.
 
 Find out more about the `advISO Bioinformatics accreditation in a box project <https://www.cardiff.ac.uk/adviso-bioinformatics-accreditation>`_.
+
+.. figure:: _static/partner_logos.png
+        :align: center
+        :width: 650px
 
 .. toctree::
    :maxdepth: 2

@@ -49,12 +49,13 @@ html_css_files = [
     'custom.css',
 ]
 
-html_logo = '_static/adviso_logo.png'
+html_logo = '_static/logo.png'
 
 html_theme_options = {
     'logo_only': True,  
     'collapse_navigation': False,
     "navigation_depth": 3,
+    'display_version': False,
 }
 
 # -- Options for EPUB output -------------------------------------------------
