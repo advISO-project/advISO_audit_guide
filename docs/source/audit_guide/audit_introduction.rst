@@ -1,7 +1,7 @@
 ===============================================
 Introducing Audits for Bioinformatics Teams
 ===============================================
-Auditing bioinformatics processes starts from the same requirements as auditing wet laboratory processes - under ISO 15189 standards, a laboratory must retain records demonstrating that its quality and competence requirements are met, and to be able to trace how a result was produced.
+Auditing bioinformatics processes starts from the same requirements as auditing wet laboratory processes - under `ISO 15189 standards <https://www.iso.org/standard/76677.html>`_ , a laboratory must retain records demonstrating that its quality and competence requirements are met, and to be able to trace how a result was produced.
 
 Meeting these requirements is well-established for wet laboratory work, because they are typically defined by a single documented SOP that trained personnel perform step-by-step, and following that SOP produces physical evidence as it goes (e.g. physical reagent stock), which can then be assessed by an auditor.
 

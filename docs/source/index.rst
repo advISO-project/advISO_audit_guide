@@ -7,7 +7,7 @@ Welcome to the AdvISO Audit Guide
 
    This guide is still under development. Please check back for updates, and feel free to provide feedback or suggestions by submitting an issue to the `GitHub repository <https://github.com/advISO-project/advISO_audit_guide/issues>`_.
 
-This guide is intended to support bioinformatics teams in diagnostic laboratories to design, implement, and maintain internal audits for ISO 15189:2022 (medical) accreditation. It is designed to be modular and adaptable to the specific needs of bioinformatics procedures and teams, wherever they are in their accreditation journey.
+This guide is intended to support bioinformatics teams in diagnostic laboratories to design, implement, and maintain internal audits for `ISO 15189 accreditation <https://www.iso.org/standard/76677.html>`_ It is designed to be modular and adaptable to the specific needs of bioinformatics procedures and teams, wherever they are in their accreditation journey.
 
 Through practical :ref:`case studies <case_studies>` and worked examples, this guide applies the internal audit process directly to bioinformatics processes. Some readers will already be familiar with this internal audit process from accrediting wet laboratory processes.
 
