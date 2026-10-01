@@ -5,6 +5,7 @@ Choosing an Audit Type
 Internal audits can be structured in different ways depending on what works best for your bioinformatics operational context. The three approaches are not mutually exclusive, and a well-designed audit programme will usually draw on all three at different times, according to the specific needs of the laboratory and the processes being audited.
 
 .. dropdown:: ↕️ Vertical audit
+
     A vertical audit follows a single sample or dataset through every stage of a process, checking that each stage is compliant before moving on to the next. Vertical audits are particularly useful for demonstrating end-to-end traceability, identifying opportunities for improvement, and uncovering hidden risks, which auditors and accreditation bodies will want to see evidenced.
 
     For bioinformatics, a vertical audit is suggested for tracing a single sample or dataset from the first input (e.g. raw sequencing data) through the bioinformatics process to the final result or report. 
@@ -14,13 +15,14 @@ Internal audits can be structured in different ways depending on what works best
  
     A horizontal audit does the opposite to a vertical audit. It takes a single step of a process and checks how consistently it is applied across multiple services, if a laboratory has more than one service. It trades depth for breadth: you learn how consistent a specific practice is, but not necessarily whether the process as a whole works end to end. 
  
-    In bioinformatics, a horizontal audit should check that a specific control, such as version control, software version pinning / containerisation, or reference database version pinning, is applied consistently across all bioinformatics pipelines / workflows, not just for one. 
+    In bioinformatics, a horizontal audit could check that a specific control, such as version control, software version pinning / containerisation, or reference database version pinning, is applied consistently across all bioinformatics pipelines / workflows, not just for one. 
  
 .. dropdown:: 👥 Cross-audit
     
     A cross-audit is performed by someone independent of the team or process being audited, rather than someone reviewing their own work. This independence is what gives the findings credibility. 
  
-    Note: a key limitation to bioinformatics cross-audits is finding other bioinformatics teams with relevant domain-specific knowledge and experience to perform the cross-audit, as they will need to be independent of the team being audited. This is particularly challenging for small laboratories with only one bioinformatics team, where it may be necessary to seek external auditors from other laboratories or organisations.
+ .. note::
+    A key limitation to bioinformatics cross-audits is finding other bioinformatics teams with relevant domain-specific knowledge and experience to perform the cross-audit, as they will need to be independent of the team being audited. This is particularly challenging for small laboratories with only one bioinformatics team, where it may be necessary to seek external auditors from other laboratories or organisations.
  
 This guide follows the same cycle any audit does — planning, execution,
 analysis of findings, and review and closure — with each stage adapted
