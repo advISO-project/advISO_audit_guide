@@ -15,7 +15,7 @@ Internal audits can be structured in different ways depending on what works best
  
     A horizontal audit does the opposite to a vertical audit. It takes a single step of a process and checks how consistently it is applied across multiple services, if a laboratory has more than one service. It trades depth for breadth: you learn how consistent a specific practice is, but not necessarily whether the process as a whole works end to end. 
  
-    In bioinformatics, a horizontal audit could check that a specific control, such as version control, software version pinning / containerisation, or reference database version pinning, is applied consistently across all bioinformatics pipelines / workflows, not just for one. 
+    In bioinformatics, a horizontal audit could check that a specific control, such as version control, software version pinning / containerisation, or reference database version pinning, is applied consistently across all bioinformatics pipelines / workflows for a set of samples over a defined period time, not just for one. 
  
 .. dropdown:: 👥 Cross-audit
     
