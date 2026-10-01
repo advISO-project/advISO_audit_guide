@@ -1,25 +1,27 @@
-// _static/js/custom_footer.js
 document.addEventListener("DOMContentLoaded", function() {
-    // Target the Next button
+    // Handle the Next button
     var nextBtn = document.querySelector('.rst-footer-buttons .btn-neutral.float-right');
     if (nextBtn) {
-        // Extract the title text (the anchor text inside the button)
-        var nextLink = nextBtn.querySelector('a');
-        if (nextLink) {
-            var titleText = nextLink.textContent.trim();
-            // Prepend "Next: " to the title
-            nextLink.innerHTML = "Next: " + titleText + " &rarr;";
+        // Read the actual page title stored in the element's title attribute
+        var pageTitle = nextBtn.getAttribute('title');
+        if (pageTitle) {
+            // Keep the arrow icon if present, but replace "Next" with the title
+            var icon = nextBtn.querySelector('span');
+            var iconHtml = icon ? icon.outerHTML : ' &rarr;';
+            
+            nextBtn.innerHTML = pageTitle + ' ' + iconHtml;
         }
     }
 
-    // Target the Previous button
+    // Handle the Previous button
     var prevBtn = document.querySelector('.rst-footer-buttons .btn-neutral.float-left');
     if (prevBtn) {
-        var prevLink = prevBtn.querySelector('a');
-        if (prevLink) {
-            var titleText = prevLink.textContent.trim();
-            // Prepend "Previous: " to the title
-            prevLink.innerHTML = "&larr; Previous: " + titleText;
+        var pageTitle = prevBtn.getAttribute('title');
+        if (pageTitle) {
+            var icon = prevBtn.querySelector('span');
+            var iconHtml = icon ? icon.outerHTML : '&larr; ';
+            
+            prevBtn.innerHTML = iconHtml + ' ' + pageTitle;
         }
     }
 });
