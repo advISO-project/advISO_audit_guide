@@ -7,11 +7,16 @@ Bioinformatics Audit Schedule
 
 Mapping the :doc:`/audit_guide/sample_journey` clarifies key risk areas within bioinformatics processes. This section explores how that sample journey exercise can inform a practical, documented **schedule** to support your team as you evaluate how to prioritise bioinformatics processes for audit and how frequently to review them.
 
-Under ISO 15189:2022, internal audit scheduling considers the risk profile associated with a process, alongside any historical findings, feedback, complaints, recent updates, or the maturity of the implemented process.  
+Under `ISO 15189 <https://www.iso.org/standard/76677.html>`_, internal audit scheduling considers the risk profile associated with a process, alongside any historical findings, feedback, complaints, recent updates, or the maturity of the implemented process.  
 
-While wet laboratory assays and instruments generally change on more predictable cycles, bioinformatics software, pipelines, or analyses often evolve differently, meaning risk profiles can shift more dynamically. A more adaptable approach to auditing for bioinformatics allows teams to adjust audit scope as processes change, while still maintaining a consistent schedule for review. Some laboratories may find it helpful to maintain a dedicated audit schedule for bioinformatics processes, while others may choose to integrate bioinformatics into a broader laboratory audit schedule.
+While wet laboratory assays and instruments generally change on more predictable cycles, bioinformatics software, pipelines, or analyses often evolve differently, meaning risk profiles can shift more dynamically. 
+
+A more adaptable approach to auditing for bioinformatics allows teams to adjust audit scope as processes change, while still maintaining a consistent schedule for review. Some laboratories may find it helpful to maintain a dedicated audit schedule for bioinformatics processes, while others may choose to integrate bioinformatics into a broader laboratory audit schedule.
+
 Defining the number of years in an audit schedule (or cycle) will depend on where you are in your accreditation journey, risk assessment, and resource constraints. 
-In this example, we will use an audit schedule which lasts for 4 years at a time before review.  
+
+In this example, we will use an audit schedule which lasts for 2 years at a time before review.  
+
 The frequency bands outlined below offer one model of how a laboratory might align bioinformatics risk levels with audit frequency. They are intended as a practical reference that teams can adapt based on their own operational context.
  
 
