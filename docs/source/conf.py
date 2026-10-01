@@ -50,6 +50,10 @@ html_css_files = [
     'custom.css',
 ]
 
+html_js_files = [
+    'custom.js',
+]
+
 html_logo = '_static/logo.png'
 
 html_theme_options = {
@@ -61,3 +65,4 @@ html_theme_options = {
 
 # -- Options for EPUB output -------------------------------------------------
 epub_show_urls = 'footnote'
+
