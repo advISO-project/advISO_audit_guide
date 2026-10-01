@@ -23,11 +23,9 @@ In **bioinformatics**, however, your scope and responsibility within that examin
 
    Example of a bioinformatics sample journey, showing the scope of bioinformatics processes and how they may fit into the overall examination process.
 
-.. card:: 💡 advISO Tips
+.. card:: 💡 When evaluating your sample journey against Fig. 2, consider:
    :class-card: sd-border-success sd-shadow-md
    :class-header: sd-bg-success sd-text-white sd-font-weight-bold
-
-   When evaluating your sample journey against Fig. 2, consider:
 
    1. Where does your bioinformatics team's scope and responsibility begin and end within the examination process?
    2. Within that specific bioinformatics scope, where are the risks? How and why could the process fail or not yield expected results?
@@ -40,12 +38,20 @@ In **bioinformatics**, however, your scope and responsibility within that examin
 Worked Example: Pathogen X
 -------------------------------------------------------------
 
-The following worked example describes a generic bioinformatics analysis pipeline for **Pathogen X**, tracing data flow from raw input to final report (Fig. 3). 
-
-Here, a bioinformatics team receives a sequenced sample from a wet laboratory team, performs initial quality control (QC), and executes a multi-step bioinformatics pipeline to generate an analytical report. This result is interpreted, then the report is signed off by the wet laboratory team, and is subsequently passed to a clinician, who will then use the genomic data to inform a decision concerning a patient.
+The following worked example describes a generic bioinformatics analysis pipeline for **Pathogen X**, tracing data flow from raw input to final report (Fig. 3, below). 
 
 .. note::
-   This Pathogen X sample journey can be rougly applied to both of the bioinformatics case studies.
+   This Pathogen X sample journey can be roughly applied to both of the bioinformatics case studies.
+
+.. dropdown:: 🧬 Bioinformatics Analysis Pipeline
+
+   In this example, the bioinformatics analysis for Pathogen X is done with a pipeline, written in-house, and is controlled with a series of Nextflow modules. It is launched automatically on a compute cluster. 
+
+.. dropdown:: 🌌 Galaxy Workflows
+
+   In this example, the bioinformatics analysis for Pathogen X is done with a web-based workflow, which is built, executed, and managed in Galaxy. It is launched manually on a laptop. 
+
+Here, a bioinformatics team receives a sequenced sample from a wet laboratory team, performs initial quality control (QC), and executes a multi-step bioinformatics pipeline to generate an analytical report. This result is interpreted, then the report is signed off by the wet laboratory team, and is subsequently passed to a clinician, who will then use the genomic data to inform a decision concerning a patient (Fig 3, below)
 
 
 .. figure:: ../images/pathogen_x_pipeline.svg
@@ -54,11 +60,7 @@ Here, a bioinformatics team receives a sequenced sample from a wet laboratory te
 
    Example of a bioinformatics sample journey for "Pathogen X" showing the nested scope of bioinformatics processes within the overall examination workflow.
 
-**Bioinformatics Analysis Pipeline**
-The pipeline is written in-house, is controlled with a series of Nextflow modules, and is launched automatically on a compute cluster.
 
-**Galaxy Workflow**
-The web-based workflow is built, executed, and managed in Galaxy, and is launched manually on a laptop. 
 
 
 In this example, the bioinformatics sample journey is nested within the examination and post-examination stages (illustrated in Fig. 3, above), i.e. the bioinformatics team manages the bioinformatics method, while a wet laboratory manages sample preparation and sequence generation. 
