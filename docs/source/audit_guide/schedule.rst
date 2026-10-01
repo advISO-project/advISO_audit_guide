@@ -61,7 +61,7 @@ Consider the sample journey of a hypothetical pathogen, Pathogen X. The worked e
          Test
 
       .. container:: flip-card-back
-         
+
          Test
 
    
@@ -107,3 +107,4 @@ The schedule can be recorded in something as straightforward as a spreadsheet, s
          });
        });
      });
+     </script>
