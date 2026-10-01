@@ -67,7 +67,7 @@ In this example, the bioinformatics sample journey is nested within the examinat
 
 .. note:: This division of responsibilities is merely illustrative; how responsibilities are divided will vary by institution.
 
-Once the bioinformatics scope is mapped, it is then advisable to interrogate each stage of the bioinformatics method to determine what could unexpectedly alter the final output of the sample, and what downstream impact that could have. 
+Once the bioinformatics scope is mapped, it is then advisable to interrogate each stage of the bioinformatics method to determine what could unexpectedly alter the final output of the sample, and what downstream impact that could have. **It is important to question what you do not have as as well as what you do have**.
 
 Consider the interactive exercise below. Click or hover on some of the stages of the Pathogen X bioinformatics analysis to reveal some of the questions the Pathogen X Bioinformatics team might ask of their analysis. In each case, consider the impact.
 

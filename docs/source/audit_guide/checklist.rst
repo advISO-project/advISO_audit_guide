@@ -32,44 +32,111 @@ Rather than forcing bioinformatics checklists into headers that are not best des
 .. tip::
     Like a wet laboratory procedure, the bioinformatics equivalent of an audit checklist should be informed by the risks identified in the :doc:`/audit_guide/sample_journey`.
 
+
 The checklist items for a bioinformatics equivalent are suggestions, and you may wish to add or remove items based on your own sample journey. You may find as you work through your own bioinformatics sample journey, you begin to sort risks into general categories that can be used to inform the checklist section headers. From there, you can start to think about questions which address checking those risks.
 
-.. dropdown:: Pathogen X Case Study
+The checklist items for a bioinformatics equivalent are suggestions, and you may wish to add or remove items based on your own sample journey. You may find as you work through your own bioinformatics sample journey, you begin to sort risks into general categories that can be used to inform the checklist section headers. From there, you can start to think about bespoke questions which address checking those risks.
+
+.. dropdown:: Pathogen X Checklist 🧬 🌌
+    :icon: checklist
+    :animate: fade-in-slide-down
     
-    1. **Pre-examination**: whether the sample and its context are correctly identified and traceable before analysis begins
-        a. **Example questions**
+    .. card:: :bdg-primary:`1` Pre-examination
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether the sample and its context are correctly identified and traceable before analysis begins
+
+        +++
+        **Example questions**
             i. Have you reviewed the previous audit to check for emerging patterns or trends?
             ii. What is the sample ID for this test?
-    2. **Examination procedures**: whether the documented method for this test is current, validated, and being followed correctly.
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`2` Examination procedures
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether the documented method for this test is current, validated, and being followed correctly.
+
+        +++
+        **Example questions**
             i. Are all SOPs used for this process within date of review?
             ii. Is a validation or verification report available for this test?
-    3. **Personnel**: whether staff involved in testing this sample are trained, competent, and demonstrably aware of the relevant procedures
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`3` Personnel
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether staff involved in testing this sample are trained, competent, and demonstrably aware of the relevant procedures
+
+        +++
+        **Example questions**
             i. Do staff involved in testing this sample have evidence of reading all relevant documentation?
             ii. Are training and competency records of staff who performed the test available and up to date?
-    4. **Bioinformatics analysis**: whether the pipeline received the correct inputs and produced the expected outputs at each stage.
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`4` Bioinformatics analysis
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether the pipeline received the correct inputs and produced the expected outputs at each stage.
+
+        +++
+        **Example questions**
             i. Are the input sequencing files for this sample available and not corrupt?
             ii. Were expected outputs for the analysis sample generated at each stage of the bioinformatics workflow?
-    5. **Databases**: whether reference databases are current, accessible, and any changes have been verified?
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`5` Databases
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether reference databases are current, accessible, and any changes have been verified
+
+        +++
+        **Example questions**
             i. Are any databases required for testing this sample accessible, back up, and up to date?
             ii. If there has been an updated in the last 12 months, was an appropriate verification performed?
-    6. **Software**: whether tool versions are recorded and any updates have been proportionately verified
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`6` Software
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: question whether tool versions are recorded and any updates have been appropriately verified
+
+        +++
+        **Example questions**
             i. For all tools used for testing this sample, is the version number stated?
             ii. If there has been an update in the last 12 months, was an appropriate verification performed?
-    7. **Equipment**: whether IT hardware is functioning correctly, maintained, and covered by adequate support arrangements. If you have access to high performance computing, you may also want to think about additional risks like temperature breaches
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`7` Equipment
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether IT hardware is functioning correctly, maintained, and covered by adequate support arrangements. If you have access to high performance computing, you may also want to think about additional risks like temperature breaches
+
+        +++
+        **Example questions**
             i. If the IT equipment used to perform this test has malfunctioned and been replaced in, has an inspection confirmed proper functioning?
             ii. Is there a warranty for IT equipment used to perform this test, and is it in date?
-    8. **Data storage and archival**: whether files and logs are retained and stored according to an agreed, traceable procedure
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`8` Data storage and archival
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether files and logs are retained and stored according to an agreed, traceable procedure
+
+        +++
+        **Example questions**
             i. Is there an agreed procedure for how input and output files for this test are stored and archived?
             ii. Are log files outputted at each relevant stage of the bioinformatics process, and do they contain information for traceability, e.g. timestamps?
-    9. **Quality assurance**: whether internal and external quality checks are defined, documented, and evidenced
-        a. **Example questions**
+
+    .. card:: :bdg-primary:`9` Quality assurance
+        :class-card: shadow-sm
+        :class-footer: bg-light
+
+        Objective: Question whether internal and external quality checks are defined, documented, and evidenced
+
+        +++
+        **Example questions**
             i. Is there evidence of EQA or interlaboratory exchange?
             ii. Are the IQA procedure, frequency, and pass/fail criteria included in an SOP? Is there evidence of recent IQA?
             iii. Are QC thresholds configured and documented to determine the pass/fail criteria of the sample?
