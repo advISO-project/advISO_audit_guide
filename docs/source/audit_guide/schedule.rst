@@ -51,67 +51,42 @@ Consider the sample journey of a hypothetical pathogen, Pathogen X. The worked e
 .. note::
    The Pathogen X sample journey revealed that the output contributes to **clinical decision making.**
 
+
 .. container:: flip-card-container
 
    .. container:: flip-card
 
       .. container:: flip-card-inner
+         
+         Test
 
-         .. container:: flip-card-front
+      .. container:: flip-card-back
+         
+         Test
 
-            **Sequence Receipt**
+   
 
-         .. container:: flip-card-back
 
-            There is an SOP within review date which outlines the process for transferring sequence data to the start of the bioinformatics workflow. 
 
-   .. container:: flip-card
 
-      .. container:: flip-card-inner
 
-         .. container:: flip-card-front
 
-            **Assembly**
+**Sequence Receipt**
+There is an SOP within review date which outlines the process for transferring sequence data to the start of the bioinformatics workflow.
 
-         .. container:: flip-card-back
+**Assembly**
+The genome assembly tool is set up to run with liberal parameters as a trade-off between accuracy and memory constraints to prevent the computer from crashing and causing undue delay to results. 
 
-            The genome assembly tool is set up to run with liberal parameters as a trade-off between accuracy and memory constraints to prevent the computer from crashing and causing undue delay to results. 
+**Variant Calling**
+The version of a variant-calling tool is controlled in a Docker container and any major updates to the variant-calling tools are reviewed and the pipeline is verified before the production pipeline itself is updated with the new version of the tool.
 
-   .. container:: flip-card
+**Results QC**
+The QC thresholds to determine the pass/fail criteria of a consensus sequence are configured and documented in an SOP. 
 
-      .. container:: flip-card-inner
 
-         .. container:: flip-card-front
+**Data Storage and Archival**
+The FASTQs used to analyse a sample are deleted permanently after each sequencing run is processed through the bioinformatics analysis to save on space. 
 
-            **Variant Calling**
-
-         .. container:: flip-card-back
-
-            The version of a variant-calling tool is controlled in a Docker container and any major updates to the variant-calling tools are reviewed and the pipeline is verified before the production pipeline itself is updated with the new version of the tool. 
-
-   .. container:: flip-card
-
-      .. container:: flip-card-inner
-
-         .. container:: flip-card-front
-
-            **Results QC**
-
-         .. container:: flip-card-back
-
-            The thresholds used to determine the quality of a consensus sequence are configured and documented in an SOP. 
-
-   .. container:: flip-card
-
-      .. container:: flip-card-inner
-
-         .. container:: flip-card-front
-
-            **Data Storage and Archival**
-
-         .. container:: flip-card-back
-
-            The FASTQs used to analyse a sample are deleted permanently after each sequencing run is processed through the bioinformatics workflow to save on space.
 
 You may then decide that the bioinformatics process for Pathogen X is high risk based on the fact the output affects patients, there is no way to trace a result back to FASTQs, and it was deployed into production less than 6 months ago. Therefore, you may consider auditing this process once every 6 months within a 2-year schedule and then decrease this frequency after the first cycle (i.e. 2 years) once the process has matured. 
 
