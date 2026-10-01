@@ -35,8 +35,6 @@ Rather than forcing bioinformatics checklists into headers that are not best des
 
 The checklist items for a bioinformatics equivalent are suggestions, and you may wish to add or remove items based on your own sample journey. You may find as you work through your own bioinformatics sample journey, you begin to sort risks into general categories that can be used to inform the checklist section headers. From there, you can start to think about questions which address checking those risks.
 
-The checklist items for a bioinformatics equivalent are suggestions, and you may wish to add or remove items based on your own sample journey. You may find as you work through your own bioinformatics sample journey, you begin to sort risks into general categories that can be used to inform the checklist section headers. From there, you can start to think about bespoke questions which address checking those risks.
-
 .. dropdown:: Pathogen X Checklist 🧬 🌌
     :icon: checklist
     :animate: fade-in-slide-down
