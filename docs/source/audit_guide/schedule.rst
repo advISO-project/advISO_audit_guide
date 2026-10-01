@@ -68,51 +68,52 @@ Consider the sample journey of a hypothetical pathogen, Pathogen X. The worked e
 
    .. container:: flip-card
 
-         .. container:: flip-card-inner
+      .. container:: flip-card-inner
 
-            .. container:: flip-card-front
+         .. container:: flip-card-front
 
-               **Assembly**
-            
-            .. container:: flip-card-back
+            **Assembly**
 
-               The genome assembly tool is set up to run with liberal parameters as a tradeoff between accuracy and memory constraints to prevent the computer from crashing and causing undue delay to results.
+         .. container:: flip-card-back
 
-      .. container:: flip-card
+            The genome assembly tool is set up to run with liberal parameters as a tradeoff between accuracy and memory constraints to prevent the computer from crashing and causing undue delay to results.
 
-         .. container:: flip-card-inner
+   .. container:: flip-card
 
-            .. container:: flip-card-front
+      .. container:: flip-card-inner
 
-               **Variant Calling**
-            
-            .. container:: flip-card-back
+         .. container:: flip-card-front
 
-               The version of a variant-calling tool is controlled in a Docker container and any major updates to the variant-calling tools are reviewed and the pipeline is verified before the production pipeline itself is updated with the new version of the tool.
+            **Variant Calling**
 
-      .. container:: flip-card
+         .. container:: flip-card-back
 
-         .. container:: flip-card-inner
+            The version of a variant-calling tool is controlled in a Docker container and any major updates to the variant-calling tools are reviewed and the pipeline is verified before the production pipeline itself is updated with the new version of the tool.
 
-            .. container:: flip-card-front
+   .. container:: flip-card
 
-               **Results QC**
-            
-            .. container:: flip-card-back
+      .. container:: flip-card-inner
 
-               The QC thresholds to determine the pass/fail criteria of a consensus sequence are configured and documented in an SOP.
+         .. container:: flip-card-front
 
-      .. container:: flip-card
+            **Results QC**
 
-         .. container:: flip-card-inner
+         .. container:: flip-card-back
 
-            .. container:: flip-card-front
+            The QC thresholds to determine the pass/fail criteria of a consensus sequence are configured and documented in an SOP.
 
-               **Data Storage and Archival**
-            
-            .. container:: flip-card-back
+   .. container:: flip-card
 
-               The FASTQs used to analyse a sample are deleted permenantly after each sequencing run is processed through the bioinformatics analysis to save on space.
+      .. container:: flip-card-inner
+
+         .. container:: flip-card-front
+
+            **Data Storage and Archival**
+
+         .. container:: flip-card-back
+
+            The FASTQs used to analyse a sample are deleted permanently after each sequencing run is processed through the bioinformatics analysis to save on space.
+
 
 
 You may then decide that the bioinformatics process for Pathogen X is high risk based on the fact the output affects patients, there is no way to trace a result back to FASTQs, and it was deployed into production less than 6 months ago. Therefore, you may consider auditing this process once every 6 months within a 2-year schedule and then decrease this frequency after the first cycle (i.e. 2 years) once the process has matured. 
@@ -134,4 +135,17 @@ The schedule can be recorded in something as straightforward as a spreadsheet, s
          });
        });
      });
-     </script>
+
+     // Auto-close other dropdowns when one opens
+     document.querySelectorAll('details').forEach((el) => {
+       el.addEventListener('toggle', function () {
+         if (el.open) {
+           document.querySelectorAll('details').forEach((other) => {
+             if (other !== el) {
+               other.removeAttribute('open');
+             }
+           });
+         }
+       });
+     });
+   </script>

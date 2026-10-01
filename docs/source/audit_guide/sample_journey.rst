@@ -95,7 +95,7 @@ Consider the interactive exercise below. Click or hover on some of the stages of
 
          .. container:: flip-card-back
 
-            If the tool that runs the genome assembly is memory-intensive, can the compute run this efficiently and reliably without clashing?
+            If the tool that runs the genome assembly is memory-intensive, can the compute run this efficiently and reliably without crashing?
 
    .. container:: flip-card
 
