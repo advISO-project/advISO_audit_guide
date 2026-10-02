@@ -13,47 +13,61 @@ Through practical :ref:`case studies <case_studies>` and worked examples, this g
 
 ---------------------------------------------------------------------------------------
 
-Glossary of ISO terms
-------------------------------
-
-As part of this guide, a glossary of ISO terms is provided, offering definitions and bioinformatics-specific translations to facilitate clear communication and shared understanding between wet lab and dry lab teams. It is intended to bridge disciplinary language gaps and promote collaboration across different areas of expertise.
-
-.. image:: _static/glossary_button_audit.png
-   :target: https://adviso-audit-guide.readthedocs.io/en/latest/audit_guide/glossary.html
-   :alt: advISO Glossary of ISO Terms
-   :width: 70%
-   :align: center
-   :class: guide-button
-
----------------------------------------------------------------------------------------
-
 Other guides in this series
 -----------------------------
 
-This guide forms part of the advISO series of practical how-to resources for laboratories working toward ISO accreditation:
+This guide forms part of the advISO series of practical how-to resources for
+laboratories working toward ISO accreditation:
 
-.. grid:: 3
+.. grid:: 1
    :gutter: 3
 
    .. grid-item::
 
-      .. image:: _static/sop_guide_button.png
+      .. image:: _static/guide_series_button_horizontal.png
+         :target: https://adviso-guide-series.readthedocs.io/en/latest/
+         :alt: advISO Guide Series
+         :width: 100%
+         :align: center
+         :class: guide-button
+
+.. grid:: 2
+   :gutter: 3
+
+   .. grid-item::
+
+      .. image:: _static/sop_guide_button_horizontal.png
          :target: https://adviso-sop-guide.readthedocs.io/en/latest/
          :alt: advISO SOP Guide
+         :width: 100%
+         :align: center
          :class: guide-button
 
    .. grid-item::
 
-      .. image:: _static/competency_guide_button.png
+      .. image:: _static/competency_guide_button_horizontal.png
          :target: https://adviso-competency-guide.readthedocs.io/en/latest/
          :alt: advISO Competency Guide
+         :width: 100%
+         :align: center
          :class: guide-button
 
    .. grid-item::
 
-      .. image:: _static/validation_guide_button.png
+      .. image:: _static/validation_guide_button_horizontal.png
          :target: https://adviso-validation-guide.readthedocs.io/en/latest/
          :alt: advISO Validation Guide
+         :width: 100%
+         :align: center
+         :class: guide-button
+
+   .. grid-item::
+
+      .. image:: _static/glossary_button_horizontal.png
+         :target: https://adviso-glossary.readthedocs.io/en/latest/
+         :alt: advISO Glossary
+         :width: 100%
+         :align: center
          :class: guide-button
 
 ---------------------------------------------------------------------------------------
