@@ -1,4 +1,4 @@
-Welcome to the AdvISO Audit Guide
+Welcome to the advISO Audit Guide
 =================================
 
 **Release:** |release| [|today|]
