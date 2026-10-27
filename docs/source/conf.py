@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'advISO'
-copyright = 'advISO 2026'
+copyright = 'Openly licensed via CC BY-NC-SA 4.0'
 author = 'Amy Gaskin, advISO Team'
 
 release = '0.1'
