@@ -85,7 +85,7 @@ def generate_button(subtitle, bg_color, docs_dir=None):
 
     bg_rgb = _hex_to_rgb(bg_color) if isinstance(bg_color, str) else bg_color
 
-    width, height = 1800, 300
+    width, height = 2100, 300
     padding_x = 15
     padding_y = 10
     corner_radius = 50
@@ -95,11 +95,11 @@ def generate_button(subtitle, bg_color, docs_dir=None):
     base = Image.open(base_path).convert('RGBA')
     base_w, base_h = base.size
 
-    # Scale base to fit canvas width
-    inner_w = width - (padding_x * 2)
-    scale = inner_w / base_w
-    scaled_w = inner_w
-    scaled_h = int(base_h * scale)
+    # Scale base to fit canvas height, leaving extra room on the right for text
+    inner_h = height - (padding_y * 2)
+    scale = inner_h / base_h
+    scaled_w = int(base_w * scale)
+    scaled_h = inner_h
     logo = base.resize((scaled_w, scaled_h), Image.LANCZOS)
     logo_y = (height - scaled_h) // 2
     canvas.paste(logo, (padding_x, logo_y), logo)
