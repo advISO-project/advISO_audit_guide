@@ -1,18 +1,18 @@
 ==================================
 Performing a Bioinformatics Audit
 ==================================
-To perform an audit for a bioinformatics process, you will already need a :doc:`audit schedule <schedule>` and an approved :doc:`audit checklist </audit_guide/checklist>` for your :doc:`sample journey </audit_guide/sample_journey>`. You will also ideally have staff who are trained and `competent <https://adviso-competency-guide.readthedocs.io/en/latest/>`_ to perform an audit as objectively as possible. If this is your quality management team, then they could be consulted to supervise your first audit for bioinformatics. 
+To perform an audit for a bioinformatics process, you will already need a :doc:`audit schedule <schedule>` and an approved :doc:`audit checklist </pages/checklist>` for your :doc:`sample journey </pages/sample_journey>`. You will also ideally have staff who are trained and `competent <https://adviso-competency-guide.readthedocs.io/en/latest/>`_ to perform an audit as objectively as possible. If this is your quality management team, then they could be consulted to supervise your first audit for bioinformatics. 
 
 The person who designs the audit plan, performs the audit, and reports the results should be independent of the activity being audited. This ensures that the audit is impartial and objective, and that the findings are credible and reliable.
 
-This may not always be possible in small bioinformatics teams, where the people who develop the bioinformatics processes may also be the ones with the domain specific knowledge to perform the audit. A :doc:`cross-audit </audit_guide/choosing_audit_type>` with external bioinformaticians could be an option to overcome this challenge. 
+This may not always be possible in small bioinformatics teams, where the people who develop the bioinformatics processes may also be the ones with the domain specific knowledge to perform the audit. A :doc:`cross-audit </pages/choosing_audit_type>` with external bioinformaticians could be an option to overcome this challenge. 
 
 You can perform an audit on paper or a local spreadsheet or in an electronic quality management system. 
 
 .. tip::
     Consider creating a folder, whether physical or digital, to store the checklist and evidence for the audit.
 
-Aim to minimise disruption to service by giving notice to those responsible for the bioinformatics scope and any other relevant parties, e.g. quality management teams. The :doc:`audit schedule </audit_guide/schedule>` should serve as anchor to minimise any possible disruption to service. 
+Aim to minimise disruption to service by giving notice to those responsible for the bioinformatics scope and any other relevant parties, e.g. quality management teams. The :doc:`audit schedule </pages/schedule>` should serve as anchor to minimise any possible disruption to service. 
 
 To perform an audit, walk through the following phases:
 
