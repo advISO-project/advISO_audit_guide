@@ -9,7 +9,7 @@ from datetime import date
 # ============================================================================
 
 guide_name = 'advISO Audit Guide'
-author = 'Amy Gaskin, advISO Team'
+author = 'advISO Team'
 copyright = f'{author} & contributors'
 release = '0.2'
 version = '0.2.0'
