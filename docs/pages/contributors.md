@@ -1,5 +1,19 @@
 # Contributors
 
+## Author(s)
+
+::::{grid} 3
+:gutter: 3
+
+:::{grid-item-card}
+:img-top: https://github.com/aegaskin.png
+:link: https://github.com/aegaskin
+
+**Amy Gaskin**
+:::
+
+::::
+
 ## Maintainers
 
 ::::{grid} 3
@@ -17,8 +31,6 @@
 :link: https://github.com/aegaskin
 
 **Amy Gaskin**
-:::
-
 :::
 
 :::{grid-item-card}
@@ -47,8 +59,6 @@
 :link: https://github.com/aegaskin
 
 **Amy Gaskin**
-:::
-
 :::
 
 :::{grid-item-card}
