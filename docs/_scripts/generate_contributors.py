@@ -7,8 +7,7 @@ import yaml
 
 
 def _render_grid(people):
-    cols = min(len(people), 3)
-    lines = [f"::::{'{'}grid{'}'} {cols}", ":gutter: 3", ""]
+    lines = ["::::{grid} 3", ":gutter: 3", ""]
     for person in people:
         gh = person["github"]
         lines += [

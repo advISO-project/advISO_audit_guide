@@ -4,7 +4,7 @@ This guide is a community effort. We are grateful to everyone who has contribute
 
 ## Author(s)
 
-::::{grid} 1
+::::{grid} 3
 :gutter: 3
 
 :::{grid-item-card}
