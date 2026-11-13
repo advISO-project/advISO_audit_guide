@@ -1,4 +1,11 @@
 {% extends "!footer.html" %}
+{% block contentinfo %}
+  {% autoescape false %}
+  <p>
+    &copy; Copyright advISO Team &amp; <a href="{{ pathto('pages/contributors') }}">contributors</a>.
+  </p>
+  {% endautoescape %}
+{% endblock %}
 {% block extrafooter %}
   <p>
     Content licensed under

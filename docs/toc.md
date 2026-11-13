@@ -11,4 +11,5 @@ pages/checklist
 pages/performing_audits
 pages/findings
 pages/review
+pages/contributors
 ```
