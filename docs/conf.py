@@ -18,7 +18,7 @@ under_development = True
 
 guide_subtitle = 'Audit Guide'
 
-sidebar_color = '#D97C5D'
+sidebar_color = '#CF5527'
 
 github_repo = 'https://github.com/advISO-project/advISO_audit_guide'
 
