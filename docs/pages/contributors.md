@@ -1,8 +1,10 @@
 # Contributors
 
+This guide is a community effort. We are grateful to everyone who has contributed their time and expertise to make it better.
+
 ## Author(s)
 
-::::{grid} 3
+::::{grid} 1
 :gutter: 3
 
 :::{grid-item-card}
