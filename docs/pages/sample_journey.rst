@@ -2,11 +2,11 @@
 Sample Journey
 ===============================================
 
-Before designing internal audits for bioinformatics processes, it might be useful to map out the **sample journey**: the path a sample takes from initial input to final output. Mapping the sample journey means thinking about how your own bioinformatics processes work, which then becomes the scaffolding for identifying risks and gaps in these processes. From here, you can choose suitable :doc:`audit types </audit_guide/choosing_audit_type>`, and then create your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`.
+Before designing internal audits for bioinformatics processes, it might be useful to map out the **sample journey**: the path a sample takes from initial input to final output. Mapping the sample journey means thinking about how your own bioinformatics processes work, which then becomes the scaffolding for identifying risks and gaps in these processes. From here, you can choose suitable :doc:`audit types </pages/choosing_audit_type>`, and then create your :doc:`audit schedule <schedule>` and :doc:`checklist(s) <checklist>`.
 
 If you already audit wet laboratory processes, you may be familiar with the sample journey as the ISO 15189 **pre-examination**, **examination**, and **post-examination** framework (Fig. 1, below). This framework describes the whole examination process as a sample journey, from request to report.
 
-.. figure:: ../images/e2e_sample_journey.svg
+.. figure:: ../_static/images/e2e_sample_journey.svg
    :alt: Sample Journey Diagram
    :align: center
    :height: 300px
@@ -16,7 +16,7 @@ If you already audit wet laboratory processes, you may be familiar with the samp
 
 In **bioinformatics**, however, your scope and responsibility within that examination process may only cover **part of it** (Fig. 2, below), because the responsibility for other stages in the sample journey may lie with another team, or there may be shared responsibility between different teams. 
 
-.. figure:: ../images/bioinformatics_sample_journey.svg
+.. figure:: ../_static/images/bioinformatics_sample_journey.svg
    :alt: Bioinformatics Sample Journey Diagram
    :align: center
    :height: 300px
@@ -54,7 +54,7 @@ The following worked example describes a generic bioinformatics analysis pipelin
 Here, a bioinformatics team receives a sequenced sample from a wet laboratory team, performs initial quality control (QC), and executes a multi-step bioinformatics pipeline to generate an analytical report. This result is interpreted, then the report is signed off by the wet laboratory team, and is subsequently passed to a clinician, who will then use the genomic data to inform a decision concerning a patient (Fig 3, below)
 
 
-.. figure:: ../images/pathogen_x_pipeline.svg
+.. figure:: ../_static/images/pathogen_x_pipeline.svg
    :align: center
    :width: 100%
 
@@ -169,7 +169,7 @@ Mapping your sample journey clarifies where your risks lie. From here, jump dire
       Determine whether a vertical, horizontal, or process audit fits your team's current setup.
       
       +++
-      :doc:`Explore Audit Types </audit_guide/choosing_audit_type>`
+      :doc:`Explore Audit Types </pages/choosing_audit_type>`
 
 
 .. raw:: html

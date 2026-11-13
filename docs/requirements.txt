@@ -1,12 +1,6 @@
-# Core Documentation Engine & Theme
-sphinx>=7.1.2
-sphinx-rtd-theme>=2.0.0
-sphinx-design==0.7.0
-
-# Document Utilities & Linters
-docutils
-doc8
-restructuredtext_lint
-
-# Esbonio Language Server
-esbonio>=0.16.0
+sphinx==7.1.2
+sphinx-rtd-theme==1.3.0rc1
+sphinx-design>=0.6.1
+sphinx-tabs>=3.4.1
+myst-parser>=2.0.0
+Pillow>=10.0.0
