@@ -42,7 +42,7 @@ laboratories working toward ISO accreditation:
 :::
 
 :::{grid-item}
-```{image} https://adviso-audit-guide.readthedocs.io/en/latest/_static/brand/button_horizontal.png
+```{image} https://adviso-validation-guide.readthedocs.io/en/latest/_static/brand/button_horizontal.png
 :target: https://adviso-validation-guide.readthedocs.io/
 :alt: advISO Validation Guide
 :width: 100%
