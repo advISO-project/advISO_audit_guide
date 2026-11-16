@@ -5,7 +5,7 @@ Bioinformatics Audit Schedule
    If you have quality management team who is responsible for putting the audit schedule together for a department, the following approach may help integrate bioinformatics into the remit and ensure audits for bioinformatics are compliant.
 
 
-Mapping the :doc:`/audit_guide/sample_journey` clarifies key risk areas within bioinformatics processes. This section explores how that sample journey exercise can inform a practical, documented **schedule** to support your team as you evaluate how to prioritise bioinformatics processes for audit and how frequently to review them.
+Mapping the :doc:`/pages/sample_journey` clarifies key risk areas within bioinformatics processes. This section explores how that sample journey exercise can inform a practical, documented **schedule** to support your team as you evaluate how to prioritise bioinformatics processes for audit and how frequently to review them.
 
 Under `ISO 15189 <https://www.iso.org/standard/76677.html>`_, internal audit scheduling considers the risk profile associated with a process, alongside any historical findings, feedback, complaints, recent updates, or the maturity of the implemented process.  
 

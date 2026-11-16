@@ -5,7 +5,7 @@ Once the audit is complete and any non-conformities have been corrected, use the
 
 Adjusting audit frequency
 ---------------------------
-If an audit evidences a bioinformatics process to be stable and reliable (and therefore presents as lower-risk), you may choose to reduce how often it is audited in the next :doc:`schedule </audit_guide/schedule>`, freeing up time and resources to focus on areas which carry higher risk. Equally, if a process has produced a serious or recurring non-conformity, you may choose to increase how often it is audited, at least until you are confident the corrective action has taken hold. Either way, accreditation bodies will be looking for decisions and reasoning behind it documented, so it is clear this was a considered judgement rather than an oversight.
+If an audit evidences a bioinformatics process to be stable and reliable (and therefore presents as lower-risk), you may choose to reduce how often it is audited in the next :doc:`schedule </pages/schedule>`, freeing up time and resources to focus on areas which carry higher risk. Equally, if a process has produced a serious or recurring non-conformity, you may choose to increase how often it is audited, at least until you are confident the corrective action has taken hold. Either way, accreditation bodies will be looking for decisions and reasoning behind it documented, so it is clear this was a considered judgement rather than an oversight.
 
 Amending the checklist
 -----------------------
@@ -43,21 +43,21 @@ You may need to act based on the results of the audit itself. If you need to ali
 
    .. grid-item::
 
-      .. image:: ../_static/sop_guide_button.png
+      .. image:: https://adviso-sop-guide.readthedocs.io/en/latest/_static/brand/button_horizontal.png
          :target: https://adviso-sop-guide.readthedocs.io/en/latest/
          :alt: advISO SOP Guide
          :class: guide-button
 
    .. grid-item::
 
-      .. image:: ../_static/competency_guide_button.png
+      .. image:: https://adviso-competency-guide.readthedocs.io/en/latest/_static/brand/button_horizontal.png
          :target: https://adviso-competency-guide.readthedocs.io/en/latest/
          :alt: advISO Competency Guide
          :class: guide-button
 
    .. grid-item::
 
-      .. image:: ../_static/validation_guide_button.png
+      .. image:: https://adviso-validation-guide.readthedocs.io/en/latest/_static/brand/button_horizontal.png
          :target: https://adviso-validation-guide.readthedocs.io/en/latest/
          :alt: advISO Validation Guide
          :class: guide-button
@@ -71,6 +71,6 @@ This guide has been produced as part of the Wellcome Trust-funded project: *ISO 
 
 Find out more about the `advISO Bioinformatics accreditation in a box project <https://www.cardiff.ac.uk/adviso-bioinformatics-accreditation>`_.
 
-.. figure:: ../_static/partner_logos.png
+.. figure:: ../_static/images/partner_logos.png
         :align: center
         :width: 650px
