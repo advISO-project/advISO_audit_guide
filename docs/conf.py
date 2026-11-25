@@ -10,7 +10,7 @@ from datetime import date
 
 guide_name = 'advISO Audit Guide'
 author = 'advISO Team'
-copyright = f'{author} & contributors'
+copyright = f'{date.today().year}, {author}'
 release = '0.2'
 version = '0.2.0'
 
